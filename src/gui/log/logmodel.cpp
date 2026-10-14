@@ -154,7 +154,7 @@ LogMessageModel::LogMessageModel(QObject *parent)
 
 void LogMessageModel::handleNewMessage(const Log::Msg &message)
 {
-    const QString time = QLocale::system().toString(QDateTime::fromSecsSinceEpoch(message.timestamp), QLocale::ShortFormat);
+    const QString time = QLocale().toString(QDateTime::fromSecsSinceEpoch(message.timestamp), QLocale::ShortFormat);
     addNewMessage({time, message.message, message.type});
 }
 
@@ -194,7 +194,7 @@ LogPeerModel::LogPeerModel(QObject *parent)
 
 void LogPeerModel::handleNewMessage(const Log::Peer &peer)
 {
-    const QString time = QLocale::system().toString(QDateTime::fromSecsSinceEpoch(peer.timestamp), QLocale::ShortFormat);
+    const QString time = QLocale().toString(QDateTime::fromSecsSinceEpoch(peer.timestamp), QLocale::ShortFormat);
     const QString message = peer.blocked
             ? tr("%1 was blocked. Reason: %2.", "0.0.0.0 was blocked. Reason: reason for blocking.").arg(peer.ip, peer.reason)
             : tr("%1 was banned", "0.0.0.0 was banned").arg(peer.ip);

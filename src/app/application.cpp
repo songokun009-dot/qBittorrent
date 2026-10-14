@@ -47,6 +47,7 @@
 #include <QDateTime>
 #include <QDebug>
 #include <QLibraryInfo>
+#include <QLocale>
 #include <QMetaObject>
 #include <QProcess>
 
@@ -1158,6 +1159,10 @@ void Application::initializeTranslation()
     Preferences *const pref = Preferences::instance();
     // Load translation
     const QString localeStr = pref->getLocale();
+
+    // Format numbers and dates from Qt's locale data instead of the Windows system locale,
+    // so locales such as Thai show Western digits (0-9) rather than native digits.
+    QLocale::setDefault(QLocale(QLocale::system().name()));
 
     if (m_qtTranslator.load((u"qtbase_" + localeStr), QLibraryInfo::path(QLibraryInfo::TranslationsPath))
         || m_qtTranslator.load((u"qt_" + localeStr), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))

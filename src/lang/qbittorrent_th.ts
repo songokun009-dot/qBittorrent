@@ -502,7 +502,7 @@
     <message>
         <location filename="../base/addtorrentmanager.cpp" line="178"/>
         <source>Merging of trackers is disabled</source>
-        <translation>การรวมตัวติดตามถูกปิดใช้งาน</translation>
+        <translation>การรวมแทร็กเกอร์ถูกปิดใช้งาน</translation>
     </message>
     <message>
         <location filename="../base/addtorrentmanager.cpp" line="182"/>
@@ -918,7 +918,7 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="835"/>
         <source>Stop tracker timeout [0: disabled]</source>
-        <translation>หยุดการหมดเวลาของตัวติดตาม [0: ปิดใช้งาน]</translation>
+        <translation>เวลารอเมื่อหยุดแทร็กเกอร์ [0: ปิดใช้งาน]</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="851"/>
@@ -1105,7 +1105,7 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="758"/>
         <source>Validate HTTPS tracker certificates</source>
-        <translation>ติดตามตรวจสอบใบอนุญาต HTTPS</translation>
+        <translation>ตรวจสอบใบรับรอง HTTPS ของแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="763"/>
@@ -1150,7 +1150,7 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="855"/>
         <source>Reannounce to all trackers when IP or port changed</source>
-        <translation>ประกาศให้ผู้ติดตามทุกคนทราบอีกครั้งเมื่อ IP หรือ พอร์ต มีการเปลี่ยนแปลง</translation>
+        <translation>แจ้งแทร็กเกอร์ทั้งหมดใหม่เมื่อ IP หรือพอร์ตเปลี่ยน</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="869"/>
@@ -1281,7 +1281,7 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="858"/>
         <source>Download tracker&apos;s favicon</source>
-        <translation>ติดตามการดาวน์โหลด favicon</translation>
+        <translation>ดาวน์โหลดไอคอนเว็บของแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="862"/>
@@ -1341,7 +1341,7 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="942"/>
         <source>Always announce to all trackers in a tier</source>
-        <translation>ประกาศต่อผู้ติดตามทุกคน</translation>
+        <translation>แจ้งแทร็กเกอร์ทุกตัวในระดับเดียวกันเสมอ</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="948"/>
@@ -1383,12 +1383,12 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="876"/>
         <source>Enable embedded tracker</source>
-        <translation>เปิดใช้งานตัวติดตามแบบฝัง</translation>
+        <translation>เปิดแทร็กเกอร์ในตัว</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="881"/>
         <source>Embedded tracker port</source>
-        <translation>พอร์ตติดตามแบบฝัง</translation>
+        <translation>พอร์ตแทร็กเกอร์ในตัว</translation>
     </message>
 </context>
 <context>
@@ -2439,7 +2439,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2748"/>
         <source>Merging of trackers is disabled</source>
-        <translation>รวมตัวติดตามถูกปิดใช้งาน</translation>
+        <translation>การรวมแทร็กเกอร์ถูกปิดใช้งาน</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2758"/>
@@ -2831,12 +2831,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/tracker.cpp" line="228"/>
         <source>Embedded Tracker: Now listening on IP: %1, port: %2</source>
-        <translation>ฝังการติดตาม: บน IP ตอนนี้: %1, พอร์ต: %2</translation>
+        <translation>แทร็กเกอร์ในตัว: รอรับการเชื่อมต่อที่ IP: %1 พอร์ต: %2</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/tracker.cpp" line="233"/>
         <source>Embedded Tracker: Unable to bind to IP: %1, port: %2. Reason: %3</source>
-        <translation>ฝังการติดตาม: ไม่สามารถเชื่อมโยงกับ IP: %1, พอร์ต: %2. เหตุผล: %3</translation>
+        <translation>แทร็กเกอร์ในตัว: ผูกกับ IP: %1 พอร์ต: %2 ไม่ได้ สาเหตุ: %3</translation>
     </message>
 </context>
 <context>
@@ -7689,7 +7689,7 @@ readme[0-9].txt: กรอง &apos;readme1.txt&apos;, &apos;readme2.txt&apos; �
     <message>
         <location filename="../gui/optionsdialog.cpp" line="699"/>
         <source>%T: Current tracker</source>
-        <translation>%T: ตัวติดตามปัจจุบัน</translation>
+        <translation>%T: แทร็กเกอร์ปัจจุบัน</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="703"/>
@@ -10132,12 +10132,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/properties/speedplotview.cpp" line="192"/>
         <source>Tracker Upload</source>
-        <translation>ติดตามอัปโหลด</translation>
+        <translation>อัปโหลดให้แทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/properties/speedplotview.cpp" line="193"/>
         <source>Tracker Download</source>
-        <translation>ดาวน์โหลดตัวติดตาม</translation>
+        <translation>ดาวน์โหลดจากแทร็กเกอร์</translation>
     </message>
 </context>
 <context>
@@ -10230,12 +10230,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/properties/speedwidget.cpp" line="90"/>
         <source>Tracker Upload</source>
-        <translation>ติดตามอัปโหลด</translation>
+        <translation>อัปโหลดให้แทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/properties/speedwidget.cpp" line="91"/>
         <source>Tracker Download</source>
-        <translation>ดาวน์โหลดตัวติดตาม</translation>
+        <translation>ดาวน์โหลดจากแทร็กเกอร์</translation>
     </message>
 </context>
 <context>
@@ -10459,17 +10459,17 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="71"/>
         <source>Stalled (0)</source>
-        <translation>ปิดกั้น (0)</translation>
+        <translation>ค้างอยู่ (0)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="74"/>
         <source>Stalled Uploading (0)</source>
-        <translation>ปิดกั้นการอัพโหลด (0)</translation>
+        <translation>ค้างการอัปโหลด (0)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="77"/>
         <source>Stalled Downloading (0)</source>
-        <translation>ปิดกั้นการดาวน์โหลด (0)</translation>
+        <translation>ค้างการดาวน์โหลด (0)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="80"/>
@@ -10549,17 +10549,17 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="172"/>
         <source>Stalled (%1)</source>
-        <translation>ปิดกั้น (%1)</translation>
+        <translation>ค้างอยู่ (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="173"/>
         <source>Stalled Uploading (%1)</source>
-        <translation>ปิดกั้นการอัพโหลด (%1)</translation>
+        <translation>ค้างการอัปโหลด (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="174"/>
         <source>Stalled Downloading (%1)</source>
-        <translation>ปิดกั้นการดาวน์โหลด (%1)</translation>
+        <translation>ค้างการดาวน์โหลด (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="175"/>
@@ -11736,7 +11736,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackerentriesdialog.ui" line="14"/>
         <source>Edit trackers</source>
-        <translation>แก้ไขการติดตาม</translation>
+        <translation>แก้ไขแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/trackerentriesdialog.ui" line="20"/>
@@ -11995,7 +11995,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackersadditiondialog.ui" line="20"/>
         <source>List of trackers to add (one per line):</source>
-        <translation>รายการตัวติดตามที่จะเพิ่ม (หนึ่งรายการต่อบรรทัด):</translation>
+        <translation>รายการแทร็กเกอร์ที่จะเพิ่ม (บรรทัดละหนึ่งรายการ):</translation>
     </message>
     <message>
         <location filename="../gui/trackersadditiondialog.ui" line="40"/>
@@ -12125,7 +12125,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistfilterswidget.cpp" line="124"/>
         <source>Trackers</source>
-        <translation>ติดตาม</translation>
+        <translation>แทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilterswidget.cpp" line="145"/>
