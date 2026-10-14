@@ -19,7 +19,7 @@
     <message>
         <location filename="../gui/aboutdialog.ui" line="15"/>
         <source>About qBittorrent</source>
-        <translation>เกี่ยวกับ qBittorent</translation>
+        <translation>เกี่ยวกับ qBittorrent</translation>
     </message>
     <message>
         <location filename="../gui/aboutdialog.ui" line="55"/>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../gui/aboutdialog.cpp" line="70"/>
         <source>Copyright %1 2006-2026 The qBittorrent project</source>
-        <translation>สงวนลิขสิทธิ์ %1 2006-2026 โครงการ qBittorrent</translation>
+        <translation>ลิขสิทธิ์ %1 2006-2026 โครงการ qBittorrent</translation>
     </message>
     <message>
         <location filename="../gui/aboutdialog.cpp" line="71"/>
@@ -201,7 +201,7 @@
     <message>
         <location filename="../gui/addnewtorrentdialog.ui" line="378"/>
         <source>Torrent information</source>
-        <translation>ข้อมูลทอเรนต์</translation>
+        <translation>ข้อมูลทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/addnewtorrentdialog.ui" line="290"/>
@@ -324,7 +324,7 @@
     <message>
         <location filename="../gui/addnewtorrentdialog.ui" line="81"/>
         <source>Automatic mode means that various torrent properties(eg save path) will be decided by the associated category</source>
-        <translation>โหมดออโต้ช่วยให้คุณสมบัติต่างๆของทอเรนต์(เช่น ที่บันทึก) จะถูกเปลี่ยนไปเลือกตามหมวดหมู่</translation>
+        <translation>โหมดออโต้ช่วยให้คุณสมบัติต่างๆของทอร์เรนต์(เช่น ที่บันทึก) จะถูกเปลี่ยนไปเลือกตามหมวดหมู่</translation>
     </message>
     <message>
         <location filename="../gui/addnewtorrentdialog.ui" line="85"/>
@@ -908,13 +908,12 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="729"/>
         <source>Differentiated Services Code Point (DSCP) for connections to peers</source>
-        <translation>รหัสจุดบริการที่แตกต่างกัน (DSCP) สำหรับการเชื่อมต่อกับโหนดอื่น</translation>
+        <translation>ค่า DSCP (Differentiated Services Code Point) สำหรับการเชื่อมต่อกับเพียร์</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="774"/>
         <source>It appends the text to the window title to help distinguish qBittorrent instances</source>
-        <translation>ย
-โปรแกรมจะเพิ่มข้อความต่อท้ายชื่อหน้าต่างเพื่อช่วยแยกแยะอินสแตนซ์ของ qBittorrent ออกจากกัน</translation>
+        <translation>ต่อท้ายข้อความนี้ในชื่อหน้าต่าง เพื่อช่วยแยกแยะ qBittorrent แต่ละตัวที่เปิดอยู่</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="835"/>
@@ -1091,7 +1090,7 @@
     <message>
         <location filename="../gui/advancedsettings.cpp" line="743"/>
         <source>Internal hostname resolver cache expiry interval</source>
-        <translation>ช่วงเวลาหมดอายุของแคชตัวแก้ไขชื่อโฮสต์</translation>
+        <translation>ระยะเวลาหมดอายุของแคชการแปลงชื่อโฮสต์ภายใน</translation>
     </message>
     <message>
         <location filename="../gui/advancedsettings.cpp" line="748"/>
@@ -1397,17 +1396,17 @@
     <message>
         <location filename="../webui/api/appcontroller.cpp" line="911"/>
         <source>WebUI username must be at least 3 characters long</source>
-        <translation>ชื่อผู้ใช้ WebUI ต้องมีความยาวอย่างน้อย 3 ตัวอักษร</translation>
+        <translation>ชื่อผู้ใช้ WebUI ต้องยาวอย่างน้อย 3 ตัวอักษร</translation>
     </message>
     <message>
         <location filename="../webui/api/appcontroller.cpp" line="913"/>
         <source>WebUI username cannot contain a colon</source>
-        <translation>ชื่อผู้ใช้ WebUI ต้องไม่มีเครื่องหมายโคลอน</translation>
+        <translation>ชื่อผู้ใช้ WebUI ห้ามมีเครื่องหมายโคลอน (:)</translation>
     </message>
     <message>
         <location filename="../webui/api/appcontroller.cpp" line="920"/>
         <source>WebUI password must be at least 6 characters long</source>
-        <translation>รหัสผ่าน WebUI ต้องมีความยาวอย่างน้อย 6 ตัวอักษร</translation>
+        <translation>รหัสผ่าน WebUI ต้องยาวอย่างน้อย 6 ตัวอักษร</translation>
     </message>
     <message>
         <location filename="../webui/api/appcontroller.cpp" line="1224"/>
@@ -1488,7 +1487,7 @@
     <message>
         <location filename="../app/application.cpp" line="947"/>
         <source>Couldn&apos;t add torrent &apos;%1&apos;, reason: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่สามารถเพิ่มทอร์เรนต์ &apos;%1&apos; ได้ สาเหตุ: %2</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="996"/>
@@ -1498,7 +1497,7 @@
     <message>
         <location filename="../app/application.cpp" line="997"/>
         <source>The WebUI administrator password was not set. A temporary password is provided for this session: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังไม่ได้ตั้งรหัสผ่านผู้ดูแล WebUI ระบบจึงให้รหัสผ่านชั่วคราวสำหรับรอบนี้: %1</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="998"/>
@@ -1508,17 +1507,17 @@
     <message>
         <location filename="../app/application.cpp" line="1004"/>
         <source>The WebUI is disabled! To enable the WebUI, edit the config file manually.</source>
-        <translation>ส่วนติดต่อผู้ใช้บนเว็บ (WebUI) ถูกปิดใช้งานอยู่! หากต้องการเปิดใช้งาน WebUI โปรดแก้ไขไฟล์การกำหนดค่าด้วยตนเอง</translation>
+        <translation>WebUI ถูกปิดอยู่! หากต้องการเปิด ให้แก้ไขไฟล์การตั้งค่าด้วยตนเอง</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="611"/>
         <source>Running external program. Torrent: &quot;%1&quot;. Command: `%2`</source>
-        <translation>กำลังเรียกใช้โปรแกรมภายนอกทอร์เรนต์: &quot;%1&quot; คำสั่ง: `%2`</translation>
+        <translation>กำลังเรียกโปรแกรมภายนอก ทอร์เรนต์: &quot;%1&quot; คำสั่ง: `%2`</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="612"/>
         <source>Failed to run external program. Torrent: &quot;%1&quot;. Command: `%2`</source>
-        <translation>ไม่สามารถเรียกใช้โปรแกรมภายนอกได้: &quot;%1&quot; คำสั่ง: `%2`</translation>
+        <translation>เรียกโปรแกรมภายนอกไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; คำสั่ง: `%2`</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="716"/>
@@ -1528,7 +1527,7 @@
     <message>
         <location filename="../app/application.cpp" line="856"/>
         <source>WebUI will be started shortly after internal preparations. Please wait...</source>
-        <translation>ระบบ WebUI จะเริ่มใช้งานได้ในไม่ช้าหลังจากเสร็จสิ้นการเตรียมการภายใน โปรดรอสักครู่...</translation>
+        <translation>WebUI จะเริ่มทำงานหลังการเตรียมระบบภายในเสร็จสักครู่ โปรดรอ...</translation>
     </message>
     <message>
         <location filename="../app/application.cpp" line="877"/>
@@ -1703,12 +1702,12 @@
     <message>
         <location filename="../gui/rss/automatedrssdownloader.ui" line="28"/>
         <source>Auto downloading of RSS torrents is currently disabled. You can enable it in application settings.</source>
-        <translation>ขณะนี้การดาวน์โหลดไฟล์ torrent จาก RSS โดยอัตโนมัติถูกปิดใช้งานอยู่ คุณสามารถเปิดใช้งานได้ในการตั้งค่าแอปพลิเคชัน</translation>
+        <translation>ขณะนี้ปิดการดาวน์โหลดทอร์เรนต์จาก RSS อัตโนมัติอยู่ เปิดได้ในการตั้งค่าโปรแกรม</translation>
     </message>
     <message>
         <location filename="../gui/rss/automatedrssdownloader.ui" line="68"/>
         <source>Rename selected rule. You can also use the F2 hotkey to rename.</source>
-        <translation>เปลี่ยนชื่อเปลี่ยนชื่อกฎที่เลือก คุณสามารถใช้ปุ่มลัด F2 เพื่อเปลี่ยนชื่อได้เช่นกัน</translation>
+        <translation>เปลี่ยนชื่อกฎที่เลือก กดปุ่ม F2 เพื่อเปลี่ยนชื่อได้เช่นกัน</translation>
     </message>
     <message>
         <location filename="../gui/rss/automatedrssdownloader.ui" line="147"/>
@@ -2160,17 +2159,17 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="427"/>
         <source>Couldn&apos;t enable Write-Ahead Logging (WAL) journaling mode. Error: %1.</source>
-        <translation>ไม่สามารถเปิดใช้งานโหมดการบันทึกข้อมูลล่วงหน้า (Write-Ahead Logging หรือ WAL) ได้ ข้อผิดพลาด: %1</translation>
+        <translation>ไม่สามารถเปิดโหมดบันทึกแบบ Write-Ahead Logging (WAL) ได้ ข้อผิดพลาด: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="616"/>
         <source>Couldn&apos;t obtain query result.</source>
-        <translation>ไม่สามารถดึงผลลัพธ์ค้นหาได้</translation>
+        <translation>ไม่สามารถรับผลลัพธ์ของคำสั่งค้นข้อมูลได้</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="620"/>
         <source>WAL mode is probably unsupported due to filesystem limitations.</source>
-        <translation>โหมด WAL อาจไม่ได้รับการสนับสนุนเนื่องจากข้อจำกัดของระบบไฟล์</translation>
+        <translation>โหมด WAL อาจไม่รองรับเนื่องจากข้อจำกัดของระบบไฟล์</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="673"/>
@@ -2197,7 +2196,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="749"/>
         <source>Save resume data transaction failed. Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>การบันทึกข้อมูลสำหรับทำต่อล้มเหลว ข้อผิดพลาด: %1</translation>
     </message>
 </context>
 <context>
@@ -2210,12 +2209,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="936"/>
         <source>Couldn&apos;t store resume data for torrent &apos;%1&apos;. Error: %2</source>
-        <translation>ไม่สามารถบันทึกข้อมูลการดาวน์โหลดต่อสำหรับทอร์เรนต์ &apos;%1&apos; ได้ ข้อผิดพลาด: %2</translation>
+        <translation>ไม่สามารถเก็บข้อมูลสำหรับทำต่อของทอร์เรนต์ &apos;%1&apos; ได้ ข้อผิดพลาด: %2</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="964"/>
         <source>Couldn&apos;t delete resume data of torrent &apos;%1&apos;. Error: %2</source>
-        <translation>ไม่สามารถลบข้อมูลดาวน์โหลดต่อของทอร์เรนต์ &apos;%1&apos; ได้ ข้อผิดพลาด: %2</translation>
+        <translation>ไม่สามารถลบข้อมูลสำหรับทำต่อของทอร์เรนต์ &apos;%1&apos; ได้ ข้อผิดพลาด: %2</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/dbresumedatastorage.cpp" line="998"/>
@@ -2261,68 +2260,68 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../base/bittorrent/sessionimpl.cpp" line="790"/>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1779"/>
         <source>Local Peer Discovery support: %1</source>
-        <translation>สนับสนุนการค้นหาข้อมูลโดยผู้เชี่ยวชาญในพื้นที่: 1%</translation>
+        <translation>รองรับการค้นหาเพียร์ในเครือข่ายท้องถิ่น: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="804"/>
         <source>Restart is required to toggle Peer Exchange (PeX) support</source>
-        <translation>จำเป็นต้องรีสตาร์ทเพื่อเปิดใช้งานการสนับสนุน Peer Exchange (PeX)</translation>
+        <translation>ต้องรีสตาร์ทโปรแกรมเพื่อเปิด/ปิดการแลกเปลี่ยนเพียร์ (PeX)</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1495"/>
         <source>Failed to resume torrent. Torrent: &quot;%1&quot;. Reason: &quot;%2&quot;</source>
-        <translation>ไม่สามารถดำเนินการต่อการดาวน์โหลดไฟล์ทอร์เรนต์ได้ ไฟล์ทอร์เรนต์: &quot;%1&quot; เหตุผล: &quot;%2&quot;</translation>
+        <translation>ทำต่อทอร์เรนต์ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; สาเหตุ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1546"/>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1553"/>
         <source>Failed to resume torrent: inconsistent torrent ID is detected. Torrent: &quot;%1&quot;</source>
-        <translation>ไม่สามารถดำเนินการต่อการดาวน์โหลดไฟล์ทอร์เรนต์ได้: ตรวจพบรหัส ทอร์เรนต์ ที่ไม่สอดคล้องกัน ไฟล์ทอร์เรนต์: &quot;%1&quot;</translation>
+        <translation>ทำต่อทอร์เรนต์ไม่สำเร็จ: พบรหัสทอร์เรนต์ไม่ตรงกัน ทอร์เรนต์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1587"/>
         <source>Detected inconsistent data: category is missing from the configuration file. Category will be recovered but its settings will be reset to default. Torrent: &quot;%1&quot;. Category: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>พบข้อมูลไม่ตรงกัน: ไม่มีหมวดหมู่นี้ในไฟล์การตั้งค่า ระบบจะกู้หมวดหมู่คืนแต่รีเซ็ตการตั้งค่าเป็นค่าเริ่มต้น ทอร์เรนต์: &quot;%1&quot; หมวดหมู่: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1594"/>
         <source>Detected inconsistent data: invalid category. Torrent: &quot;%1&quot;. Category: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>พบข้อมูลไม่ตรงกัน: หมวดหมู่ไม่ถูกต้อง ทอร์เรนต์: &quot;%1&quot; หมวดหมู่: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1609"/>
         <source>Detected mismatch between the save paths of the recovered category and the current save path of the torrent. Torrent is now switched to Manual mode. Torrent: &quot;%1&quot;. Category: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางบันทึกของหมวดหมู่ที่กู้คืนไม่ตรงกับเส้นทางบันทึกปัจจุบันของทอร์เรนต์ จึงเปลี่ยนทอร์เรนต์เป็นโหมดกำหนดเอง ทอร์เรนต์: &quot;%1&quot; หมวดหมู่: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1623"/>
         <source>Detected inconsistent data: tag is missing from the configuration file. Tag will be recovered. Torrent: &quot;%1&quot;. Tag: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>พบข้อมูลไม่ตรงกัน: ไม่มีแท็กนี้ในไฟล์การตั้งค่า ระบบจะกู้แท็กคืน ทอร์เรนต์: &quot;%1&quot; แท็ก: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1629"/>
         <source>Detected inconsistent data: invalid tag. Torrent: &quot;%1&quot;. Tag: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>พบข้อมูลไม่ตรงกัน: แท็กไม่ถูกต้อง ทอร์เรนต์: &quot;%1&quot; แท็ก: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1707"/>
         <source>System wake-up event detected. Re-announcing to all the trackers...</source>
-        <translation type="unfinished"></translation>
+        <translation>ตรวจพบว่าเครื่องตื่นจากโหมดพัก กำลังแจ้งแทร็กเกอร์ทั้งหมดใหม่...</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1776"/>
         <source>Peer ID: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Peer ID: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1777"/>
         <source>HTTP User-Agent: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP User-Agent: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1780"/>
         <source>Peer Exchange (PeX) support: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>รองรับการแลกเปลี่ยนเพียร์ (PeX): %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1781"/>
@@ -2334,7 +2333,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1782"/>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3784"/>
         <source>Encryption support: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>รองรับการเข้ารหัส: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1782"/>
@@ -2345,17 +2344,17 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2226"/>
         <source>Could not find GUID of network interface. Interface: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบ GUID ของการ์ดเครือข่าย อินเทอร์เฟซ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2243"/>
         <source>Trying to listen on the following list of IP addresses: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังพยายามรอรับการเชื่อมต่อบนรายการที่อยู่ IP ต่อไปนี้: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2390"/>
         <source>Torrent reached the share ratio limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ถึงขีดจำกัดอัตราส่วนการแบ่งปันแล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2407"/>
@@ -2370,72 +2369,72 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2396"/>
         <source>Torrent reached the seeding time limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ถึงขีดจำกัดเวลาการส่งแล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2402"/>
         <source>Torrent reached the inactive seeding time limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ถึงขีดจำกัดเวลาการส่งขณะไม่มีความเคลื่อนไหวแล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1646"/>
         <source>Failed to load torrent. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดทอร์เรนต์ไม่สำเร็จ สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6359"/>
         <source>I2P error. Message: &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาด I2P ข้อความ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3032"/>
         <source>UPnP/NAT-PMP support: ON</source>
-        <translation type="unfinished"></translation>
+        <translation>รองรับ UPnP/NAT-PMP: เปิด</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="733"/>
         <source>Saving resume data completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกข้อมูลสำหรับทำต่อเสร็จแล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="744"/>
         <source>BitTorrent session successfully finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดเซสชัน BitTorrent เรียบร้อยแล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="746"/>
         <source>Session shutdown timed out.</source>
-        <translation type="unfinished"></translation>
+        <translation>การปิดเซสชันใช้เวลานานเกินกำหนด</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2412"/>
         <source>Removing torrent.</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังลบทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2417"/>
         <source>Removing torrent and deleting its content.</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังลบทอร์เรนต์และไฟล์ข้างใน</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2423"/>
         <source>Torrent stopped.</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดทอร์เรนต์แล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2437"/>
         <source>Torrent content removed. Torrent: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบไฟล์ของทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2441"/>
         <source>Failed to remove torrent content. Torrent: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบไฟล์ของทอร์เรนต์ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2553"/>
         <source>Torrent removed. Torrent: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2748"/>
@@ -2455,88 +2454,88 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2971"/>
         <source>Failed to add torrent. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มทอร์เรนต์ไม่สำเร็จ สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3051"/>
         <source>UPnP/NAT-PMP support: OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>รองรับ UPnP/NAT-PMP: ปิด</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3158"/>
         <source>Failed to download torrent metadata. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดเมทาดาตาของทอร์เรนต์ไม่สำเร็จ สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3203"/>
         <source>Failed to export torrent. Torrent: &quot;%1&quot;. Destination: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่งออกทอร์เรนต์ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; ปลายทาง: &quot;%2&quot; สาเหตุ: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3246"/>
         <source>Aborted saving resume data. Number of outstanding torrents: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ยกเลิกการบันทึกข้อมูลสำหรับทำต่อ จำนวนทอร์เรนต์ที่ค้างอยู่: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3382"/>
         <source>The configured network address is invalid. Address: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่เครือข่ายที่ตั้งไว้ไม่ถูกต้อง ที่อยู่: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3423"/>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3457"/>
         <source>Failed to find the configured network address to listen on. Address: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบที่อยู่เครือข่ายที่ตั้งไว้สำหรับรอรับการเชื่อมต่อ ที่อยู่: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="3436"/>
         <source>The configured network interface is invalid. Interface: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>การ์ดเครือข่ายที่ตั้งไว้ไม่ถูกต้อง อินเทอร์เฟซ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="4050"/>
         <source>Tracker list updated</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตรายการแทร็กเกอร์แล้ว</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="4054"/>
         <source>Failed to update tracker list. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตรายการแทร็กเกอร์ไม่สำเร็จ สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="4184"/>
         <source>Rejected invalid IP address while applying the list of banned IP addresses. IP: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้ามที่อยู่ IP ที่ไม่ถูกต้องขณะใช้รายการ IP ที่ถูกแบน IP: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5279"/>
         <source>Added tracker to torrent. Torrent: &quot;%1&quot;. Tracker: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มแทร็กเกอร์ให้ทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot; แทร็กเกอร์: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5286"/>
         <source>Removed tracker from torrent. Torrent: &quot;%1&quot;. Tracker: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบแทร็กเกอร์ออกจากทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot; แทร็กเกอร์: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5298"/>
         <source>Added URL seed to torrent. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่ม URL seed ให้ทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot; URL: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5304"/>
         <source>Removed URL seed from torrent. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบ URL seed ออกจากทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot; URL: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6480"/>
         <source>Generate resume data failed. Torrent: &quot;%1&quot;. Reason: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้างข้อมูลสำหรับทำต่อไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; สาเหตุ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6492"/>
         <source>Failed to restore torrent. Files were probably moved or storage isn&apos;t accessible. Torrent: &quot;%1&quot;. Reason: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>กู้คืนทอร์เรนต์ไม่สำเร็จ ไฟล์อาจถูกย้ายหรือเข้าถึงที่เก็บไม่ได้ ทอร์เรนต์: &quot;%1&quot; สาเหตุ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6519"/>
@@ -2546,44 +2545,44 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6532"/>
         <source>Performance alert: %1. More info: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>แจ้งเตือนประสิทธิภาพ: %1 ข้อมูลเพิ่มเติม: %2</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6609"/>
         <source>Failed to remove partfile. Torrent: &quot;%1&quot;. Reason: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบไฟล์ partfile ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; สาเหตุ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6640"/>
         <source>Failed to load additional trackers from file. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดแทร็กเกอร์เพิ่มเติมจากไฟล์ไม่สำเร็จ สาเหตุ: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5333"/>
         <source>Torrent resumed. Torrent: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ทำต่อทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5495"/>
         <source>Torrent download finished. Torrent: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดทอร์เรนต์เสร็จแล้ว ทอร์เรนต์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5398"/>
         <source>Torrent move canceled. Torrent: &quot;%1&quot;. Source: &quot;%2&quot;. Destination: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ยกเลิกการย้ายทอร์เรนต์ ทอร์เรนต์: &quot;%1&quot; ต้นทาง: &quot;%2&quot; ปลายทาง: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2749"/>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2759"/>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="2770"/>
         <source>Detected an attempt to add a duplicate torrent. Existing torrent: &quot;%1&quot;. Torrent infohash: %2. Result: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>พบการพยายามเพิ่มทอร์เรนต์ซ้ำ ทอร์เรนต์ที่มีอยู่: &quot;%1&quot; infohash: %2 ผลลัพธ์: %3</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5327"/>
         <source>Torrent stopped. Torrent: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดทอร์เรนต์แล้ว ทอร์เรนต์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5409"/>
@@ -2603,27 +2602,27 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5453"/>
         <source>Start moving torrent. Torrent: &quot;%1&quot;. Destination: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มย้ายทอร์เรนต์ ทอร์เรนต์: &quot;%1&quot; ปลายทาง: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5529"/>
         <source>Failed to save Categories configuration. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกการตั้งค่าหมวดหมู่ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5576"/>
         <source>Failed to parse Categories configuration. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านการตั้งค่าหมวดหมู่ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5705"/>
         <source>Successfully parsed the IP filter file. Number of rules applied: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านไฟล์ตัวกรอง IP สำเร็จ จำนวนกฎที่ใช้: %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5715"/>
         <source>Failed to parse the IP filter file</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านไฟล์ตัวกรอง IP ไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="1653"/>
@@ -2638,27 +2637,27 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5937"/>
         <source>Torrent errored. Torrent: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์เกิดข้อผิดพลาด ทอร์เรนต์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5989"/>
         <source>Torrent is missing SSL parameters. Torrent: &quot;%1&quot;. Message: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ไม่มีพารามิเตอร์ SSL ทอร์เรนต์: &quot;%1&quot; ข้อความ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6052"/>
         <source>File error alert. Torrent: &quot;%1&quot;. File: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>แจ้งเตือนข้อผิดพลาดของไฟล์ ทอร์เรนต์: &quot;%1&quot; ไฟล์: &quot;%2&quot; สาเหตุ: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6063"/>
         <source>UPnP/NAT-PMP port mapping failed. Message: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>การจับคู่พอร์ต UPnP/NAT-PMP ไม่สำเร็จ ข้อความ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6069"/>
         <source>UPnP/NAT-PMP port mapping succeeded. Message: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>การจับคู่พอร์ต UPnP/NAT-PMP สำเร็จ ข้อความ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6078"/>
@@ -2670,28 +2669,28 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6081"/>
         <source>filtered port (%1)</source>
         <comment>this peer was blocked. Reason: filtered port (8899).</comment>
-        <translation type="unfinished"></translation>
+        <translation>พอร์ตที่ถูกกรอง (%1)</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6087"/>
         <source>privileged port (%1)</source>
         <comment>this peer was blocked. Reason: privileged port (80).</comment>
-        <translation type="unfinished"></translation>
+        <translation>พอร์ตสงวนของระบบ (%1)</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6117"/>
         <source>URL seed connection failed. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Error: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เชื่อมต่อ URL seed ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; URL: &quot;%2&quot; ข้อผิดพลาด: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6168"/>
         <source>BitTorrent session encountered a serious error. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เซสชัน BitTorrent เกิดข้อผิดพลาดร้ายแรง สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6349"/>
         <source>SOCKS5 proxy error. Address: %1. Message: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดพร็อกซี SOCKS5 ที่อยู่: %1 ข้อความ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6084"/>
@@ -2702,12 +2701,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5568"/>
         <source>Failed to load Categories. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดหมวดหมู่ไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="5583"/>
         <source>Failed to load Categories configuration. File: &quot;%1&quot;. Error: &quot;Invalid data format&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดการตั้งค่าหมวดหมู่ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;รูปแบบข้อมูลไม่ถูกต้อง&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6090"/>
@@ -2724,37 +2723,37 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6123"/>
         <source>Received error message from URL seed. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Message: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ได้รับข้อความแจ้งข้อผิดพลาดจาก URL seed ทอร์เรนต์: &quot;%1&quot; URL: &quot;%2&quot; ข้อความ: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6132"/>
         <source>Successfully listening on IP. IP: &quot;%1&quot;. Port: &quot;%2/%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>รอรับการเชื่อมต่อบน IP สำเร็จ IP: &quot;%1&quot; พอร์ต: &quot;%2/%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6139"/>
         <source>Failed to listen on IP. IP: &quot;%1&quot;. Port: &quot;%2/%3&quot;. Reason: &quot;%4&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>รอรับการเชื่อมต่อบน IP ไม่สำเร็จ IP: &quot;%1&quot; พอร์ต: &quot;%2/%3&quot; สาเหตุ: &quot;%4&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6147"/>
         <source>Detected external IP. IP: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ตรวจพบ IP ภายนอก IP: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6276"/>
         <source>Error: Internal alert queue is full and alerts are dropped, you might see degraded performance. Dropped alert type: &quot;%1&quot;. Message: &quot;%2&quot;</source>
-        <translation>ข้อผิดพลาด: คิวการแจ้งเตือนข้อผิดพลาดภายในระบบเต็ม และการแจ้งเตือนเพิ่มเติมถูกยกเลิก คุณอาจเห็นประสิทธิภาพลดลง&#xa0; ประเภทการแจ้งเตือนที่ยกเลิก: &quot;%1&quot; ข้อความ: &quot;%2&quot;</translation>
+        <translation>ข้อผิดพลาด: คิวการแจ้งเตือนข้อผิดพลาดภายในระบบเต็ม และการแจ้งเตือนเพิ่มเติมถูกยกเลิก คุณอาจเห็นประสิทธิภาพลดลง  ประเภทการแจ้งเตือนที่ยกเลิก: &quot;%1&quot; ข้อความ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6292"/>
         <source>Moved torrent successfully. Torrent: &quot;%1&quot;. Destination: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ย้ายทอร์เรนต์สำเร็จ ทอร์เรนต์: &quot;%1&quot; ปลายทาง: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/sessionimpl.cpp" line="6309"/>
         <source>Failed to move torrent. Torrent: &quot;%1&quot;. Source: &quot;%2&quot;. Destination: &quot;%3&quot;. Reason: &quot;%4&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ย้ายทอร์เรนต์ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; ต้นทาง: &quot;%2&quot; ปลายทาง: &quot;%3&quot; สาเหตุ: &quot;%4&quot;</translation>
     </message>
 </context>
 <context>
@@ -2762,7 +2761,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/torrentcreationtask.cpp" line="76"/>
         <source>Failed to start seeding.</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มส่งไฟล์ไม่สำเร็จ</translation>
     </message>
 </context>
 <context>
@@ -2794,12 +2793,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/torrentimpl.cpp" line="918"/>
         <source>Unexpected data detected. Torrent: %1. Data: total_wanted=%2 total_wanted_done=%3.</source>
-        <translation type="unfinished"></translation>
+        <translation>พบข้อมูลผิดปกติ ทอร์เรนต์: %1 ข้อมูล: total_wanted=%2 total_wanted_done=%3</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/torrentimpl.cpp" line="1318"/>
         <source>Couldn&apos;t write to file. Reason: &quot;%1&quot;. Torrent is now in &quot;upload only&quot; mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>เขียนไฟล์ไม่ได้ สาเหตุ: &quot;%1&quot; ทอร์เรนต์จึงเปลี่ยนเป็นโหมด &quot;อัปโหลดอย่างเดียว&quot;</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/torrentimpl.cpp" line="1729"/>
@@ -2819,12 +2818,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/torrentimpl.cpp" line="1932"/>
         <source>Failed to reload torrent. Torrent: %1. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดทอร์เรนต์ซ้ำไม่สำเร็จ ทอร์เรนต์: %1 สาเหตุ: %2</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/torrentimpl.cpp" line="2801"/>
         <source>Missing metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีเมทาดาตา</translation>
     </message>
 </context>
 <context>
@@ -2846,29 +2845,29 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../app/cmdoptions.cpp" line="152"/>
         <source>Parameter &apos;%1&apos; must follow syntax &apos;%1=%2&apos;</source>
         <comment>e.g. Parameter &apos;--webui-port&apos; must follow syntax &apos;--webui-port=value&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>พารามิเตอร์ &apos;%1&apos; ต้องเขียนตามรูปแบบ &apos;%1=%2&apos;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="201"/>
         <source>Parameter &apos;%1&apos; must follow syntax &apos;%1=%2&apos;</source>
         <comment>e.g. Parameter &apos;--webui-port&apos; must follow syntax &apos;--webui-port=&lt;value&gt;&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>พารามิเตอร์ &apos;%1&apos; ต้องเขียนตามรูปแบบ &apos;%1=%2&apos;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="217"/>
         <source>Expected integer number in environment variable &apos;%1&apos;, but got &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องการตัวเลขจำนวนเต็มในตัวแปรสภาพแวดล้อม &apos;%1&apos; แต่ได้ &apos;%2&apos;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="295"/>
         <source>Expected %1 in environment variable &apos;%2&apos;, but got &apos;%3&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องการ %1 ในตัวแปรสภาพแวดล้อม &apos;%2&apos; แต่ได้ &apos;%3&apos;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="385"/>
         <location filename="../app/cmdoptions.cpp" line="393"/>
         <source>%1 must specify a valid port (1 to 65535).</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ต้องระบุพอร์ตที่ถูกต้อง (1 ถึง 65535)</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="502"/>
@@ -2878,7 +2877,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="503"/>
         <source>[options] [(&lt;filename&gt; | &lt;url&gt;)...]</source>
-        <translation type="unfinished"></translation>
+        <translation>[ตัวเลือก] [(&lt;ชื่อไฟล์&gt; | &lt;url&gt;)...]</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="505"/>
@@ -2888,23 +2887,23 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="508"/>
         <source>Display program version and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงเวอร์ชันโปรแกรมแล้วออก</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="506"/>
         <source>Display this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงข้อความช่วยเหลือนี้แล้วออก</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="268"/>
         <source>Parameter &apos;%1&apos; must follow syntax &apos;%1=%2&apos;</source>
         <comment>e.g. Parameter &apos;--add-stopped&apos; must follow syntax &apos;--add-stopped=&lt;true|false&gt;&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>พารามิเตอร์ &apos;%1&apos; ต้องเขียนตามรูปแบบ &apos;%1=%2&apos;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="510"/>
         <source>Confirm the legal notice</source>
-        <translation type="unfinished"></translation>
+        <translation>ยอมรับประกาศทางกฎหมาย</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="511"/>
@@ -2915,33 +2914,33 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="512"/>
         <source>Change the WebUI port</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยนพอร์ต WebUI</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="515"/>
         <source>Change the torrenting port</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยนพอร์ตสำหรับทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="518"/>
         <source>Disable splash screen</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่แสดงหน้าจอเปิดโปรแกรม</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="520"/>
         <source>Run in daemon-mode (background)</source>
-        <translation type="unfinished"></translation>
+        <translation>ทำงานแบบเบื้องหลัง (daemon)</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="523"/>
         <source>dir</source>
         <extracomment>Use appropriate short form or abbreviation of &quot;directory&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>โฟลเดอร์</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="524"/>
         <source>Store configuration files in &lt;dir&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>เก็บไฟล์การตั้งค่าไว้ใน &lt;dir&gt;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="525"/>
@@ -2952,27 +2951,27 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="526"/>
         <source>Store configuration files in directories qBittorrent_&lt;name&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>เก็บไฟล์การตั้งค่าไว้ในโฟลเดอร์ qBittorrent_&lt;name&gt;</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="528"/>
         <source>Hack into libtorrent fastresume files and make file paths relative to the profile directory</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไฟล์ fastresume ของ libtorrent ให้เส้นทางไฟล์อ้างอิงจากโฟลเดอร์โปรไฟล์</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="530"/>
         <source>files or URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์หรือ URL</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="531"/>
         <source>Download the torrents passed by the user</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดทอร์เรนต์ที่ผู้ใช้ส่งมา</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="534"/>
         <source>Options when adding new torrents:</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวเลือกเมื่อเพิ่มทอร์เรนต์ใหม่:</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="535"/>
@@ -2982,12 +2981,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="535"/>
         <source>Torrent save path</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางบันทึกทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="536"/>
         <source>Add torrents as running or stopped</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มทอร์เรนต์แบบเริ่มทันทีหรือแบบหยุดไว้</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="537"/>
@@ -2997,12 +2996,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="539"/>
         <source>Assign torrents to category. If the category doesn&apos;t exist, it will be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>จัดทอร์เรนต์เข้าหมวดหมู่ ถ้ายังไม่มีหมวดหมู่นี้ ระบบจะสร้างให้</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="541"/>
         <source>Download files in sequential order</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดไฟล์ตามลำดับ</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="543"/>
@@ -3012,17 +3011,17 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/cmdoptions.cpp" line="545"/>
         <source>Specify whether the &quot;Add New Torrent&quot; dialog opens when adding a torrent.</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดว่าจะเปิดหน้าต่าง &quot;เพิ่มทอร์เรนต์ใหม่&quot; เมื่อเพิ่มทอร์เรนต์หรือไม่</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="549"/>
         <source>Option values may be supplied via environment variables. For option named &apos;parameter-name&apos;, environment variable name is &apos;QBT_PARAMETER_NAME&apos; (in upper case, &apos;-&apos; replaced with &apos;_&apos;). To pass flag values, set the variable to &apos;1&apos; or &apos;TRUE&apos;. For example, to disable the splash screen: </source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งค่าตัวเลือกผ่านตัวแปรสภาพแวดล้อมได้ สำหรับตัวเลือกชื่อ &apos;parameter-name&apos; ตัวแปรจะชื่อ &apos;QBT_PARAMETER_NAME&apos; (ตัวพิมพ์ใหญ่ และเปลี่ยน &apos;-&apos; เป็น &apos;_&apos;) หากเป็นค่าแบบเปิด/ปิด ให้ตั้งเป็น &apos;1&apos; หรือ &apos;TRUE&apos; ตัวอย่าง ปิดหน้าจอเปิดโปรแกรม: </translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="554"/>
         <source>Command line parameters take precedence over environment variables</source>
-        <translation type="unfinished"></translation>
+        <translation>พารามิเตอร์ในบรรทัดคำสั่งมีผลเหนือกว่าตัวแปรสภาพแวดล้อม</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="562"/>
@@ -3101,12 +3100,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../webui/api/clientdatacontroller.cpp" line="67"/>
         <source>Items of `keys` must be strings</source>
-        <translation>คีย์แต่ละรายการต้องเป็นสตริง</translation>
+        <translation>สมาชิกของ `keys` ต้องเป็นข้อความ</translation>
     </message>
     <message>
         <location filename="../webui/api/clientdatacontroller.cpp" line="83"/>
         <source>`data` must be an object</source>
-        <translation>`data` ต้องเป็นอ็อบเจ็กต์</translation>
+        <translation>`data` ต้องเป็นอ็อบเจกต์</translation>
     </message>
 </context>
 <context>
@@ -3114,27 +3113,27 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../webui/clientdatastorage.cpp" line="53"/>
         <source>Failed to load web client data. %1</source>
-        <translation>ไม่สามารถโหลดข้อมูลเว็บไคลเอ็นต์ได้ %1</translation>
+        <translation>โหลดข้อมูลเว็บไคลเอนต์ไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../webui/clientdatastorage.cpp" line="61"/>
         <source>Failed to parse web client data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation>ไม่สามารถแยกวิเคราะห์ข้อมูลจากเว็บไคลเอ็นต์ได้ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
+        <translation>อ่านข้อมูลเว็บไคลเอนต์ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../webui/clientdatastorage.cpp" line="68"/>
         <source>Failed to load web client data. File: &quot;%1&quot;. Error: &quot;Invalid data format&quot;</source>
-        <translation>ไม่สามารถโหลดข้อมูลเว็บไคลเอ็นต์ได้ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;รูปแบบข้อมูลไม่ถูกต้อง&quot;</translation>
+        <translation>โหลดข้อมูลเว็บไคลเอนต์ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;รูปแบบข้อมูลไม่ถูกต้อง&quot;</translation>
     </message>
     <message>
         <location filename="../webui/clientdatastorage.cpp" line="113"/>
         <source>Total web client data must not be larger than %1 bytes</source>
-        <translation>ข้อมูลทั้งหมดของเว็บไคลเอ็นต์ต้องไม่เกิน %1 ไบต์</translation>
+        <translation>ข้อมูลเว็บไคลเอนต์รวมกันต้องไม่เกิน %1 ไบต์</translation>
     </message>
     <message>
         <location filename="../webui/clientdatastorage.cpp" line="116"/>
         <source>Failed to save web client data. Error: &quot;%1&quot;</source>
-        <translation>ไม่สามารถบันทึกข้อมูลเว็บไคลเอ็นต์ได้ ข้อผิดพลาด: &quot;%1&quot;</translation>
+        <translation>บันทึกข้อมูลเว็บไคลเอนต์ไม่สำเร็จ ข้อผิดพลาด: &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -3152,7 +3151,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/uithemedialog.cpp" line="133"/>
         <source>System</source>
-        <translation>ระบบ</translation>
+        <translation>ตามระบบ</translation>
     </message>
 </context>
 <context>
@@ -3196,12 +3195,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/uithemesource.cpp" line="249"/>
         <source>Failed to load custom theme style sheet. %1</source>
-        <translation>ไม่สามารถโหลดไฟล์สไตล์ชีตของธีมที่กำหนดเองได้ %1</translation>
+        <translation>โหลดสไตล์ชีตของธีมที่กำหนดเองไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../gui/uithemesource.cpp" line="273"/>
         <source>Failed to load custom theme colors. %1</source>
-        <translation>ไม่สามารถโหลดสีธีมที่กำหนดเองได้ %1</translation>
+        <translation>โหลดสีของธีมที่กำหนดเองไม่สำเร็จ %1</translation>
     </message>
 </context>
 <context>
@@ -3209,7 +3208,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/uithemesource.cpp" line="166"/>
         <source>Failed to load default theme colors. %1</source>
-        <translation>ไม่สามารถโหลดสีธีมเริ่มต้นได้ %1</translation>
+        <translation>โหลดสีของธีมเริ่มต้นไม่สำเร็จ %1</translation>
     </message>
 </context>
 <context>
@@ -3227,19 +3226,19 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/deletionconfirmationdialog.ui" line="91"/>
         <source>Also remove the content files</source>
-        <translation>นอกจากนี้ ลบไฟล์เนื้อหาออกด้วย</translation>
+        <translation>ลบไฟล์ที่ดาวน์โหลดมาด้วย</translation>
     </message>
     <message>
         <location filename="../gui/deletionconfirmationdialog.cpp" line="47"/>
         <source>Are you sure you want to remove &apos;%1&apos; from the transfer list?</source>
         <comment>Are you sure you want to remove &apos;ubuntu-linux-iso&apos; from the transfer list?</comment>
-        <translation>คุณแน่ใจหรือไม่ว่าต้องการลบ &apos;%1&apos; ออกจากรายการโอนย้าย?</translation>
+        <translation>ต้องการลบ &apos;%1&apos; ออกจากรายการโอนถ่ายใช่ไหม</translation>
     </message>
     <message>
         <location filename="../gui/deletionconfirmationdialog.cpp" line="49"/>
         <source>Are you sure you want to remove these %1 torrents from the transfer list?</source>
         <comment>Are you sure you want to remove these 5 torrents from the transfer list?</comment>
-        <translation>คุณแน่ใจหรือไม่ว่าต้องการลบไฟล์ทอร์เรนต์ %1 เหล่านี้ออกจากรายการถ่ายโอน?</translation>
+        <translation>ต้องการลบทอร์เรนต์ทั้ง %1 รายการนี้ออกจากรายการโอนถ่ายใช่ไหม</translation>
     </message>
     <message>
         <location filename="../gui/deletionconfirmationdialog.cpp" line="60"/>
@@ -3340,7 +3339,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/filelogger.cpp" line="180"/>
         <source>An error occurred while trying to open the log file. Logging to file is disabled. File: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
-        <translation>เกิดข้อผิดพลาดขณะพยายามเปิดไฟล์บันทึก การบันทึกไปยังไฟล์ถูกปิดใช้งาน ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
+        <translation>เกิดข้อผิดพลาดขณะเปิดไฟล์บันทึก จึงปิดการบันทึกลงไฟล์ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
 </context>
 <context>
@@ -3412,7 +3411,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/bittorrent/filterparserthread.cpp" line="264"/>
         <source>IP filter line %1 is malformed. End IP is lower than Start IP!</source>
-        <translation>บรรทัดตัวกรอง IP %1 ผิดรูปแบบ IP ปลายทางต่ำกว่า IP เริ่มต้น!</translation>
+        <translation>ตัวกรอง IP บรรทัดที่ %1 รูปแบบไม่ถูกต้อง IP สิ้นสุดน้อยกว่า IP เริ่มต้น!</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/filterparserthread.cpp" line="280"/>
@@ -3444,7 +3443,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/filterpatternformatmenu.cpp" line="36"/>
         <source>Pattern Format</source>
-        <translation>รูปแบบแพทเทิร์น</translation>
+        <translation>รูปแบบการค้นหา</translation>
     </message>
     <message>
         <location filename="../gui/filterpatternformatmenu.cpp" line="41"/>
@@ -3454,12 +3453,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/filterpatternformatmenu.cpp" line="45"/>
         <source>Wildcards</source>
-        <translation type="unfinished"></translation>
+        <translation>ไวลด์การ์ด</translation>
     </message>
     <message>
         <location filename="../gui/filterpatternformatmenu.cpp" line="49"/>
         <source>Regular expression</source>
-        <translation type="unfinished"></translation>
+        <translation>นิพจน์ปกติ (Regex)</translation>
     </message>
 </context>
 <context>
@@ -3477,12 +3476,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/guiaddtorrentmanager.cpp" line="228"/>
         <source>Trackers cannot be merged because it is a private torrent.</source>
-        <translation type="unfinished"></translation>
+        <translation>รวมแทร็กเกอร์ไม่ได้ เพราะเป็นทอร์เรนต์ส่วนตัว</translation>
     </message>
     <message>
         <location filename="../gui/guiaddtorrentmanager.cpp" line="234"/>
         <source>Torrent &apos;%1&apos; is already in the transfer list. Do you want to merge trackers from new source?</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ &apos;%1&apos; มีอยู่ในรายการโอนถ่ายแล้ว ต้องการรวมแทร็กเกอร์จากแหล่งใหม่ไหม</translation>
     </message>
 </context>
 <context>
@@ -3534,7 +3533,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../base/http/connection.cpp" line="110"/>
         <source>Bad Http request method, closing socket. IP: %1. Method: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>วิธีการร้องขอ HTTP ไม่ถูกต้อง กำลังปิดการเชื่อมต่อ IP: %1 วิธีการ: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/http/connection.cpp" line="123"/>
@@ -3590,12 +3589,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/uithemedialog.cpp" line="213"/>
         <source>Select icon</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกไอคอน</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.cpp" line="214"/>
         <source>Supported image files</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ภาพที่รองรับ</translation>
     </message>
 </context>
 <context>
@@ -3603,24 +3602,24 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/powermanagement/inhibitordbus.cpp" line="70"/>
         <source>Power management found suitable D-Bus interface. Interface: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ระบบจัดการพลังงานพบอินเทอร์เฟซ D-Bus ที่เหมาะสม อินเทอร์เฟซ: %1</translation>
     </message>
     <message>
         <location filename="../gui/powermanagement/inhibitordbus.cpp" line="75"/>
         <source>Power management error. Did not find a suitable D-Bus interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดของระบบจัดการพลังงาน ไม่พบอินเทอร์เฟซ D-Bus ที่เหมาะสม</translation>
     </message>
     <message>
         <location filename="../gui/powermanagement/inhibitordbus.cpp" line="163"/>
         <location filename="../gui/powermanagement/inhibitordbus.cpp" line="182"/>
         <location filename="../gui/powermanagement/inhibitordbus.cpp" line="200"/>
         <source>Power management error. Action: %1. Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดของระบบจัดการพลังงาน การกระทำ: %1 ข้อผิดพลาด: %2</translation>
     </message>
     <message>
         <location filename="../gui/powermanagement/inhibitordbus.cpp" line="220"/>
         <source>Power management unexpected error. State: %1. Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ระบบจัดการพลังงานเกิดข้อผิดพลาดที่ไม่คาดคิด สถานะ: %1 ข้อผิดพลาด: %2</translation>
     </message>
 </context>
 <context>
@@ -3629,7 +3628,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../gui/powermanagement/inhibitormacos.cpp" line="36"/>
         <source>PMMacOS</source>
         <comment>qBittorrent is active</comment>
-        <translation type="unfinished"></translation>
+        <translation>PMMacOS</translation>
     </message>
 </context>
 <context>
@@ -3637,22 +3636,22 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../app/legalnotice.cpp" line="50"/>
         <source>Legal Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>ประกาศทางกฎหมาย</translation>
     </message>
     <message>
         <location filename="../app/legalnotice.cpp" line="51"/>
         <source>qBittorrent is a file sharing program. When you run a torrent, its data will be made available to others by means of upload. Any content you share is your sole responsibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>qBittorrent เป็นโปรแกรมแบ่งปันไฟล์ เมื่อคุณเปิดทอร์เรนต์ ข้อมูลของมันจะถูกอัปโหลดให้ผู้อื่นด้วย เนื้อหาใดที่คุณแบ่งปันถือเป็นความรับผิดชอบของคุณแต่เพียงผู้เดียว</translation>
     </message>
     <message>
         <location filename="../app/legalnotice.cpp" line="52"/>
         <source>No further notices will be issued.</source>
-        <translation type="unfinished"></translation>
+        <translation>จะไม่มีการแจ้งเตือนนี้อีก</translation>
     </message>
     <message>
         <location filename="../app/legalnotice.cpp" line="58"/>
         <source>If you have read the legal notice, you can use command line option `--confirm-legal-notice` to suppress this message.</source>
-        <translation type="unfinished"></translation>
+        <translation>หากอ่านประกาศทางกฎหมายแล้ว ใช้ตัวเลือก `--confirm-legal-notice` ในบรรทัดคำสั่งเพื่อไม่ให้แสดงข้อความนี้อีก</translation>
     </message>
     <message>
         <location filename="../app/legalnotice.cpp" line="67"/>
@@ -3681,53 +3680,53 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../app/main.cpp" line="223"/>
         <source>%1 is an unknown command line parameter.</source>
         <comment>--random-parameter is an unknown command line parameter.</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 เป็นพารามิเตอร์บรรทัดคำสั่งที่ไม่รู้จัก</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="91"/>
         <source>Run application with -h option to read about command line parameters.</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียกโปรแกรมพร้อมตัวเลือก -h เพื่ออ่านเรื่องพารามิเตอร์บรรทัดคำสั่ง</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="93"/>
         <source>Bad command line</source>
-        <translation type="unfinished"></translation>
+        <translation>บรรทัดคำสั่งไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="99"/>
         <source>Bad command line: </source>
-        <translation type="unfinished"></translation>
+        <translation>บรรทัดคำสั่งไม่ถูกต้อง: </translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="113"/>
         <source>An unrecoverable error occurred.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดที่แก้ไขไม่ได้</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="121"/>
         <location filename="../app/main.cpp" line="125"/>
         <source>qBittorrent has encountered an unrecoverable error.</source>
-        <translation type="unfinished"></translation>
+        <translation>qBittorrent พบข้อผิดพลาดที่แก้ไขไม่ได้</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="234"/>
         <source>You cannot use %1: qBittorrent is already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ %1 ไม่ได้: qBittorrent เปิดอยู่แล้ว</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="241"/>
         <source>Another qBittorrent instance is already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>มี qBittorrent อีกตัวเปิดอยู่แล้ว</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="297"/>
         <source>Found unexpected qBittorrent instance. Exiting this instance. Current process ID: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>พบ qBittorrent ตัวที่ไม่คาดคิด จะปิดตัวนี้ รหัสโปรเซสปัจจุบัน: %1</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="306"/>
         <source>Error when daemonizing. Reason: &quot;%1&quot;. Error code: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดขณะเปลี่ยนเป็นโหมดเบื้องหลัง สาเหตุ: &quot;%1&quot; รหัสข้อผิดพลาด: %2</translation>
     </message>
 </context>
 <context>
@@ -3801,7 +3800,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/mainwindow.ui" line="320"/>
         <source>Filters Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>แถบตัวกรองด้านข้าง</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.ui" line="328"/>
@@ -3836,12 +3835,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/mainwindow.ui" line="398"/>
         <source>Sh&amp;utdown System</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดเครื่อง(&amp;U)</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.ui" line="406"/>
         <source>&amp;Reboot System</source>
-        <translation type="unfinished"></translation>
+        <translation>รีสตาร์ทเครื่อง(&amp;R)</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.ui" line="414"/>
@@ -3901,12 +3900,12 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/mainwindow.ui" line="205"/>
         <source>R&amp;esume Session</source>
-        <translation>ดำเนินเซสชันต่อ</translation>
+        <translation>ทำต่อทั้งเซสชัน(&amp;E)</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.ui" line="210"/>
         <source>Pau&amp;se Session</source>
-        <translation>หยุดเซสชันชั่วคราว</translation>
+        <translation>หยุดทั้งเซสชันชั่วคราว(&amp;S)</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.ui" line="238"/>
@@ -4074,7 +4073,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/mainwindow.cpp" line="346"/>
         <source>&amp;Window</source>
-        <translation>&amp;หน้าต่าง</translation>
+        <translation>หน้าต่าง(&amp;W)</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="472"/>
@@ -4134,7 +4133,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     <message>
         <location filename="../gui/mainwindow.cpp" line="743"/>
         <source>Use regular expressions</source>
-        <translation>ใช้การแสดงออกปกติ (Regular Expression)</translation>
+        <translation>ใช้นิพจน์ปกติ (Regex)</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="766"/>
@@ -4212,44 +4211,44 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <location filename="../gui/mainwindow.cpp" line="1877"/>
         <source>[D: %1, U: %2] %3</source>
         <comment>D = Download; U = Upload; %3 is the rest of the window title</comment>
-        <translation>[ดาวน์โหลด: %1, อัพโหลด: %2] %3</translation>
+        <translation>[ลง: %1, ขึ้น: %2] %3</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1989"/>
         <source>Python installer could not be downloaded. Error: %1.
 Please install it manually.</source>
-        <translation>ไม่สามารถดาวน์โหลดตัวติดตั้ง Python ได้ เกิดข้อผิดพลาด: %1
+        <translation>ดาวน์โหลดตัวติดตั้ง Python ไม่ได้ ข้อผิดพลาด: %1
 โปรดติดตั้งด้วยตนเอง</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1997"/>
         <source>Rename Python installer failed. Source: &quot;%1&quot;. Destination: &quot;%2&quot;.</source>
-        <translation>เปลี่ยนชื่อโปรแกรมติดตั้ง Python ล้มเหลว แหล่งที่มา: &quot;%1&quot; ปลายทาง: &quot;%2&quot;</translation>
+        <translation>เปลี่ยนชื่อตัวติดตั้ง Python ไม่สำเร็จ ต้นทาง: &quot;%1&quot; ปลายทาง: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="2014"/>
         <source>Python installation success.</source>
-        <translation>ติดตั้ง Python สำเร็จแล้ว</translation>
+        <translation>ติดตั้ง Python สำเร็จ</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="2029"/>
         <source>Exit code: %1.</source>
-        <translation>รหัสออก: %1</translation>
+        <translation>รหัสสิ้นสุด: %1</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="2030"/>
         <source>Reason: installer crashed.</source>
-        <translation>สาเหตุ: โปรแกรมติดตั้งเกิดข้อผิดพลาด</translation>
+        <translation>สาเหตุ: ตัวติดตั้งหยุดทำงานกะทันหัน</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="2031"/>
         <source>Python installation failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ติดตั้ง Python ไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="2034"/>
         <source>Launching Python installer. File: &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังเปิดตัวติดตั้ง Python ไฟล์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1621"/>
@@ -4311,13 +4310,15 @@ You are already using the latest version.</source>
         <location filename="../gui/mainwindow.cpp" line="1641"/>
         <source>Your Python version (%1) is outdated. Minimum requirement: %2.
 Do you want to install a newer version now?</source>
-        <translation type="unfinished"></translation>
+        <translation>Python ของคุณ (%1) เป็นรุ่นเก่า รุ่นขั้นต่ำที่ต้องการ: %2
+ต้องการติดตั้งรุ่นใหม่ตอนนี้ไหม</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1648"/>
         <source>Your Python version (%1) is outdated. Please upgrade to latest version for search engines to work.
 Minimum requirement: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Python ของคุณ (%1) เป็นรุ่นเก่า โปรดอัปเกรดเป็นรุ่นล่าสุดเพื่อให้เครื่องมือค้นหาทำงานได้
+รุ่นขั้นต่ำที่ต้องการ: %2</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1900"/>
@@ -4337,22 +4338,22 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1928"/>
         <source>Python installation in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังติดตั้ง Python...</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1947"/>
         <source>Failed to open Python installer. File: &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดตัวติดตั้ง Python ไม่ได้ ไฟล์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1955"/>
         <source>Failed MD5 hash check for Python installer. File: &quot;%1&quot;. Result hash: &quot;%2&quot;. Expected hash: &quot;%3&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ตรวจสอบค่าแฮช MD5 ของตัวติดตั้ง Python ไม่ผ่าน ไฟล์: &quot;%1&quot; ค่าที่ได้: &quot;%2&quot; ค่าที่ควรเป็น: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1967"/>
         <source>Failed SHA3-512 hash check for Python installer. File: &quot;%1&quot;. Result hash: &quot;%2&quot;. Expected hash: &quot;%3&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ตรวจสอบค่าแฮช SHA3-512 ของตัวติดตั้ง Python ไม่ผ่าน ไฟล์: &quot;%1&quot; ค่าที่ได้: &quot;%2&quot; ค่าที่ควรเป็น: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1988"/>
@@ -4368,12 +4369,12 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/mainwindow.cpp" line="230"/>
         <source>Filter torrents...</source>
-        <translation type="unfinished"></translation>
+        <translation>กรองทอร์เรนต์...</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="235"/>
         <source>Filter by:</source>
-        <translation type="unfinished"></translation>
+        <translation>กรองตาม:</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="673"/>
@@ -4450,12 +4451,12 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/dnsupdater.cpp" line="218"/>
         <source>Dynamic DNS error: qBittorrent was blacklisted by the service, please submit a bug report at https://bugs.qbittorrent.org.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาด Dynamic DNS: บริการนี้ขึ้นบัญชีดำ qBittorrent ไว้ โปรดแจ้งปัญหาที่ https://bugs.qbittorrent.org</translation>
     </message>
     <message>
         <location filename="../base/net/dnsupdater.cpp" line="226"/>
         <source>Dynamic DNS error: %1 was returned by the service, please submit a bug report at https://bugs.qbittorrent.org.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาด Dynamic DNS: บริการตอบกลับ %1 โปรดแจ้งปัญหาที่ https://bugs.qbittorrent.org</translation>
     </message>
     <message>
         <location filename="../base/net/dnsupdater.cpp" line="234"/>
@@ -4484,7 +4485,7 @@ Minimum requirement: %2.</source>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="164"/>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="181"/>
         <source>I/O Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดการอ่าน/เขียน: %1</translation>
     </message>
     <message>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="201"/>
@@ -4504,7 +4505,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="236"/>
         <source>Redirect to unsupported or dangerous protocol: &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ถูกเปลี่ยนเส้นทางไปยังโปรโตคอลที่ไม่รองรับหรืออันตราย: &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="269"/>
@@ -4564,12 +4565,12 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="291"/>
         <source>The access to the remote content was denied (403)</source>
-        <translation type="unfinished"></translation>
+        <translation>ถูกปฏิเสธการเข้าถึงเนื้อหาปลายทาง (403)</translation>
     </message>
     <message>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="297"/>
         <source>The remote server requires authentication to serve the content but the credentials provided were not accepted (401)</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์ปลายทางต้องยืนยันตัวตน แต่ข้อมูลที่ให้ไปไม่ผ่าน (401)</translation>
     </message>
     <message>
         <location filename="../base/net/downloadhandlerimpl.cpp" line="293"/>
@@ -4622,7 +4623,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/downloadmanager.cpp" line="155"/>
         <source>SSL error, URL: &quot;%1&quot;, errors: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาด SSL, URL: &quot;%1&quot;, ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/net/downloadmanager.cpp" line="159"/>
@@ -5693,7 +5694,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="466"/>
         <source>Couldn&apos;t save downloaded IP geolocation database file. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกไฟล์ฐานข้อมูลตำแหน่ง IP ที่ดาวน์โหลดมาไม่ได้ สาเหตุ: %1</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="462"/>
@@ -5921,47 +5922,47 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/smtp.cpp" line="216"/>
         <source>Connection failed, unrecognized reply: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เชื่อมต่อไม่สำเร็จ ได้รับคำตอบที่ไม่รู้จัก: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="256"/>
         <source>Authentication failed, msg: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ยืนยันตัวตนไม่สำเร็จ ข้อความ: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="269"/>
         <source>&lt;mail from&gt; was rejected by server, msg: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์ปฏิเสธ &lt;mail from&gt; ข้อความ: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="282"/>
         <source>&lt;Rcpt to&gt; was rejected by server, msg: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์ปฏิเสธ &lt;Rcpt to&gt; ข้อความ: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="295"/>
         <source>&lt;data&gt; was rejected by server, msg: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์ปฏิเสธ &lt;data&gt; ข้อความ: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="309"/>
         <source>Message was rejected by the server, error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์ปฏิเสธข้อความ ข้อผิดพลาด: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="397"/>
         <source>Both EHLO and HELO failed, msg: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ทั้ง EHLO และ HELO ล้มเหลว ข้อความ: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="478"/>
         <source>The SMTP server does not seem to support any of the authentications modes we support [CRAM-MD5|PLAIN|LOGIN], skipping authentication, knowing it is likely to fail... Server Auth Modes: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์ SMTP ดูเหมือนไม่รองรับวิธียืนยันตัวตนที่เรารองรับ [CRAM-MD5|PLAIN|LOGIN] จะข้ามการยืนยันตัวตนแม้อาจล้มเหลว... วิธียืนยันตัวตนของเซิร์ฟเวอร์: %1</translation>
     </message>
     <message>
         <location filename="../base/net/smtp.cpp" line="566"/>
         <source>Email Notification Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดการแจ้งเตือนทางอีเมล: %1</translation>
     </message>
 </context>
 <context>
@@ -6009,7 +6010,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="264"/>
         <source>Customize UI Theme...</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับแต่งธีมหน้าตา...</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="274"/>
@@ -6067,17 +6068,17 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="455"/>
         <source>Auto hide zero status filters</source>
-        <translation type="unfinished"></translation>
+        <translation>ซ่อนตัวกรองที่มีจำนวนเป็นศูนย์อัตโนมัติ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="462"/>
         <source>Use separate &quot;Tracker status&quot; filter. Otherwise it gets merged with &quot;Trackers&quot; filter.</source>
-        <translation type="unfinished"></translation>
+        <translation>แยกตัวกรอง &quot;สถานะแทร็กเกอร์&quot; ออกมาต่างหาก ไม่เช่นนั้นจะรวมอยู่กับตัวกรอง &quot;แทร็กเกอร์&quot;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="465"/>
         <source>Use separate &quot;Tracker status&quot; filter</source>
-        <translation type="unfinished"></translation>
+        <translation>แยกตัวกรอง &quot;สถานะแทร็กเกอร์&quot;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="494"/>
@@ -6107,17 +6108,17 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="702"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To set qBittorrent as default program for .torrent files and/or Magnet links&lt;br/&gt;you can use &lt;span style=&quot; font-weight:600;&quot;&gt;Default Programs&lt;/span&gt; dialog from &lt;span style=&quot; font-weight:600;&quot;&gt;Control Panel&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;หากต้องการตั้ง qBittorrent เป็นโปรแกรมหลักสำหรับไฟล์ .torrent และ/หรือลิงก์แม็กเน็ต&lt;br/&gt;ใช้หน้าต่าง &lt;span style=&quot; font-weight:600;&quot;&gt;โปรแกรมเริ่มต้น&lt;/span&gt; ใน &lt;span style=&quot; font-weight:600;&quot;&gt;แผงควบคุม&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="722"/>
         <source>Show speed in Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงความเร็วบน Dock</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="729"/>
         <source>Show qBittorrent in menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดง qBittorrent ในแถบเมนู</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="806"/>
@@ -6127,7 +6128,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="899"/>
         <source>Show free disk space in status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงพื้นที่ดิสก์ว่างในแถบสถานะ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="998"/>
@@ -6163,7 +6164,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1114"/>
         <source>Merge trackers to existing torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>รวมแทร็กเกอร์เข้ากับทอร์เรนต์ที่มีอยู่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1209"/>
@@ -6198,12 +6199,12 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1712"/>
         <source>Run on torrent added:</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียกเมื่อเพิ่มทอร์เรนต์:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1730"/>
         <source>Run on torrent finished:</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียกเมื่อทอร์เรนต์ดาวน์โหลดเสร็จ:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1802"/>
@@ -6218,47 +6219,47 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2011"/>
         <source>I2P (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>I2P (ทดลอง)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2073"/>
         <source>Mixed mode</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดผสม</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2161"/>
         <source>If checked, hostname lookups are done via the proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>หากเลือก จะค้นหาชื่อโฮสต์ผ่านพร็อกซี</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2164"/>
         <source>Perform hostname lookup via proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>ค้นหาชื่อโฮสต์ผ่านพร็อกซี</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2224"/>
         <source>Use proxy for BitTorrent purposes</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้พร็อกซีกับ BitTorrent</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2249"/>
         <source>RSS feeds will use proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>ฟีด RSS จะใช้พร็อกซี</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2252"/>
         <source>Use proxy for RSS purposes</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้พร็อกซีกับ RSS</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2262"/>
         <source>Search engine, software updates or anything else will use proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>เครื่องมือค้นหา การอัปเดตโปรแกรม และอื่น ๆ จะใช้พร็อกซี</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2265"/>
         <source>Use proxy for general purposes</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้พร็อกซีกับงานทั่วไป</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2278"/>
@@ -6292,7 +6293,9 @@ Minimum requirement: %2.</source>
         <source>Allow encryption: Connect to peers regardless of setting
 Require encryption: Only connect to peers with protocol encryption
 Disable encryption: Only connect to peers without protocol encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>อนุญาตการเข้ารหัส: เชื่อมต่อกับเพียร์ได้ทุกแบบ
+บังคับเข้ารหัส: เชื่อมต่อเฉพาะเพียร์ที่เข้ารหัส
+ปิดการเข้ารหัส: เชื่อมต่อเฉพาะเพียร์ที่ไม่เข้ารหัส</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2785"/>
@@ -6307,7 +6310,7 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2863"/>
         <source>Maximum active checking torrents:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนทอร์เรนต์ที่ตรวจสอบพร้อมกันสูงสุด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2898"/>
@@ -6317,12 +6320,12 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3122"/>
         <source>When total seeding time reaches</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเวลาการส่งรวมถึง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3145"/>
         <source>When inactive seeding time reaches</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเวลาการส่งขณะไม่มีความเคลื่อนไหวถึง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3431"/>
@@ -6332,22 +6335,22 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3437"/>
         <source>Enable fetching RSS feeds</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการดึงฟีด RSS</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3446"/>
         <source>Feeds refresh interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเฟรชฟีดทุก:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3482"/>
         <source>Same host request delay:</source>
-        <translation type="unfinished"></translation>
+        <translation>หน่วงเวลาระหว่างคำขอไปยังโฮสต์เดียวกัน:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3502"/>
         <source>Maximum number of articles per feed:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนบทความสูงสุดต่อฟีด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3132"/>
@@ -6385,12 +6388,12 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2154"/>
         <source>Some functions are unavailable with the chosen proxy type!</source>
-        <translation type="unfinished"></translation>
+        <translation>พร็อกซีชนิดที่เลือกใช้บางฟังก์ชันไม่ได้!</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2214"/>
         <source>Note: The password is saved unencrypted</source>
-        <translation type="unfinished"></translation>
+        <translation>หมายเหตุ: รหัสผ่านถูกบันทึกแบบไม่เข้ารหัส</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3182"/>
@@ -6400,12 +6403,12 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3208"/>
         <source>A&amp;utomatically append these trackers to new downloads:</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มแทร็กเกอร์เหล่านี้ให้การดาวน์โหลดใหม่โดยอัตโนมัติ(&amp;U):</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3230"/>
         <source>Automatically append trackers from URL to new downloads:</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มแทร็กเกอร์จาก URL ให้การดาวน์โหลดใหม่โดยอัตโนมัติ:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3244"/>
@@ -6415,27 +6418,27 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3256"/>
         <source>Fetched trackers</source>
-        <translation type="unfinished"></translation>
+        <translation>แทร็กเกอร์ที่ดึงมา</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3321"/>
         <source>Search UI</source>
-        <translation type="unfinished"></translation>
+        <translation>หน้าค้นหา</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3327"/>
         <source>Store opened tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>จำแท็บที่เปิดไว้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3339"/>
         <source>Also store search results</source>
-        <translation type="unfinished"></translation>
+        <translation>จำผลการค้นหาด้วย</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3351"/>
         <source>History length</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนประวัติ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3524"/>
@@ -6455,12 +6458,12 @@ Disable encryption: Only connect to peers without protocol encryption</source>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3547"/>
         <source>RSS Smart Episode Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวกรองตอนอัจฉริยะของ RSS</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3553"/>
         <source>Download REPACK/PROPER episodes</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดตอนแบบ REPACK/PROPER</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3560"/>
@@ -6482,45 +6485,47 @@ Disable encryption: Only connect to peers without protocol encryption</source>
         <source>IP address that the Web UI will bind to.
 Specify an IPv4 or IPv6 address. You can specify &quot;0.0.0.0&quot; for any IPv4 address,
 &quot;::&quot; for any IPv6 address, or &quot;*&quot; for both IPv4 and IPv6.</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่ IP ที่ Web UI จะผูกไว้
+ระบุที่อยู่ IPv4 หรือ IPv6 ได้ ใช้ &quot;0.0.0.0&quot; สำหรับ IPv4 ทุกที่อยู่
+&quot;::&quot; สำหรับ IPv6 ทุกที่อยู่ หรือ &quot;*&quot; สำหรับทั้ง IPv4 และ IPv6</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3759"/>
         <source>User</source>
-        <translation type="unfinished"></translation>
+        <translation>ผู้ใช้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3795"/>
         <source>API Key</source>
-        <translation type="unfinished"></translation>
+        <translation>API Key</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3813"/>
         <source>Generate a key</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้างคีย์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3823"/>
         <source>Copy API key</source>
-        <translation type="unfinished"></translation>
+        <translation>คัดลอก API key</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3834"/>
         <location filename="../gui/optionsdialog.cpp" line="1508"/>
         <location filename="../gui/optionsdialog.cpp" line="1561"/>
         <source>Generate API key</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้าง API key</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3845"/>
         <location filename="../gui/optionsdialog.cpp" line="1530"/>
         <source>Delete API key</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบ API key</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3890"/>
         <source>Ban client after consecutive failures:</source>
-        <translation type="unfinished"></translation>
+        <translation>แบนไคลเอนต์หลังผิดพลาดติดกัน:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3897"/>
@@ -6554,12 +6559,16 @@ In order to defend against DNS rebinding attack,
 you should put in domain names used by WebUI server.
 
 Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>รายการที่อนุญาตสำหรับกรองค่า HTTP Host header
+เพื่อป้องกันการโจมตีแบบ DNS rebinding
+ควรใส่ชื่อโดเมนที่เซิร์ฟเวอร์ WebUI ใช้
+
+ใช้ &apos;;&apos; คั่นหลายรายการ ใช้ไวลด์การ์ด &apos;*&apos; ได้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3699"/>
         <source>&amp;Use HTTPS instead of HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ HTTPS แทน HTTP(&amp;U)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3861"/>
@@ -6574,22 +6583,22 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="3881"/>
         <source>IP subnet whitelist...</source>
-        <translation type="unfinished"></translation>
+        <translation>รายการซับเน็ต IP ที่อนุญาต...</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3985"/>
         <source>Use alternative WebUI</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ WebUI ทางเลือก</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4134"/>
         <source>Specify reverse proxy IPs (or subnets, e.g. 0.0.0.0/24) in order to use forwarded client address (X-Forwarded-For header). Use &apos;;&apos; to split multiple entries.</source>
-        <translation type="unfinished"></translation>
+        <translation>ระบุ IP ของ reverse proxy (หรือซับเน็ต เช่น 0.0.0.0/24) เพื่อใช้ที่อยู่ไคลเอนต์ที่ส่งต่อมา (X-Forwarded-For header) ใช้ &apos;;&apos; คั่นหลายรายการ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4159"/>
         <source>Upda&amp;te my dynamic domain name</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตชื่อโดเมนแบบไดนามิกของฉัน(&amp;T)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="583"/>
@@ -6604,7 +6613,7 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="87"/>
         <source>WebUI</source>
-        <translation type="unfinished"></translation>
+        <translation>WebUI</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="138"/>
@@ -6619,60 +6628,60 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="185"/>
         <source>Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>สไตล์:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="204"/>
         <source>Color scheme:</source>
-        <translation type="unfinished"></translation>
+        <translation>ชุดสี:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="303"/>
         <source>Use different text colors by torrent states</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้สีตัวอักษรต่างกันตามสถานะทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="313"/>
         <source>Make progress bars follow text colors</source>
         <extracomment>Progress bar color is based on text color.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>ให้แถบความคืบหน้าใช้สีตามตัวอักษร</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="335"/>
         <source>Stopped torrents only</source>
-        <translation type="unfinished"></translation>
+        <translation>เฉพาะทอร์เรนต์ที่หยุดไว้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="375"/>
         <location filename="../gui/optionsdialog.ui" line="424"/>
         <source>Start / stop torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่ม / หยุดทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="390"/>
         <location filename="../gui/optionsdialog.ui" line="439"/>
         <source>Open torrent options dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดหน้าต่างตัวเลือกทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="475"/>
         <source>Torrent Content View</source>
-        <translation type="unfinished"></translation>
+        <translation>มุมมองเนื้อหาทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="481"/>
         <source>Replaces multi-selection (hold Alt key to invert)</source>
-        <translation type="unfinished"></translation>
+        <translation>แทนการเลือกหลายรายการ (กด Alt ค้างเพื่อสลับ)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="484"/>
         <source>Drag content from qBittorrent</source>
-        <translation type="unfinished"></translation>
+        <translation>ลากไฟล์ออกจาก qBittorrent</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="605"/>
         <source>Tray icon style:</source>
-        <translation type="unfinished"></translation>
+        <translation>สไตล์ไอคอนถาดระบบ:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="613"/>
@@ -6683,7 +6692,7 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="649"/>
         <source>File association</source>
-        <translation type="unfinished"></translation>
+        <translation>การเชื่อมโยงไฟล์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="670"/>
@@ -6708,7 +6717,7 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="762"/>
         <source>&amp;Log Files</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์บันทึก(&amp;L)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="782"/>
@@ -6718,7 +6727,7 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="799"/>
         <source>Backup the log file after:</source>
-        <translation type="unfinished"></translation>
+        <translation>สำรองไฟล์บันทึกเมื่อเกิน:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="839"/>
@@ -6728,7 +6737,7 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="906"/>
         <source>Show external IP in status bar</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดง IP ภายนอกในแถบสถานะ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="968"/>
@@ -6743,17 +6752,17 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="1052"/>
         <source>The torrent will be added to download list in a stopped state</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์จะถูกเพิ่มเข้ารายการดาวน์โหลดในสถานะหยุด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1108"/>
         <source>When adding a duplicate torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเพิ่มทอร์เรนต์ที่ซ้ำกัน</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1124"/>
         <source>Ask to merge trackers for manually added torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>ถามก่อนรวมแทร็กเกอร์เมื่อเพิ่มทอร์เรนต์ด้วยตนเอง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1152"/>
@@ -6763,17 +6772,17 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="1155"/>
         <source>Also when addition is cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>รวมถึงเมื่อยกเลิกการเพิ่มด้วย</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1177"/>
         <source>Warning! Data loss possible!</source>
-        <translation type="unfinished"></translation>
+        <translation>คำเตือน! ข้อมูลอาจสูญหาย!</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1226"/>
         <source>Saving Management</source>
-        <translation type="unfinished"></translation>
+        <translation>การจัดการการบันทึก</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1234"/>
@@ -6830,17 +6839,17 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="571"/>
         <source>Show &amp;qBittorrent in notification area</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดง qBittorrent ในถาดระบบ(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="974"/>
         <source>Display &amp;torrent content and some options</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงเนื้อหาทอร์เรนต์และตัวเลือกบางส่วน(&amp;T)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1140"/>
         <source>De&amp;lete .torrent files afterwards </source>
-        <translation type="unfinished"></translation>
+        <translation>ลบไฟล์ .torrent หลังจากนั้น(&amp;L) </translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1443"/>
@@ -6850,48 +6859,48 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="1195"/>
         <source>Pre-allocate disk space for all files</source>
-        <translation type="unfinished"></translation>
+        <translation>จองพื้นที่ดิสก์ล่วงหน้าสำหรับทุกไฟล์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="229"/>
         <source>Use custom UI Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ธีมหน้าตาที่กำหนดเอง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="238"/>
         <source>UI Theme file:</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ธีมหน้าตา:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="149"/>
         <source>Changing Interface settings requires application restart</source>
-        <translation type="unfinished"></translation>
+        <translation>การเปลี่ยนการตั้งค่าหน้าตาต้องเปิดโปรแกรมใหม่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="280"/>
         <source>Shows a confirmation dialog upon torrent deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงหน้าต่างยืนยันเมื่อลบทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="385"/>
         <location filename="../gui/optionsdialog.ui" line="434"/>
         <source>Preview file, otherwise open destination folder</source>
-        <translation type="unfinished"></translation>
+        <translation>ดูตัวอย่างไฟล์ ไม่เช่นนั้นเปิดโฟลเดอร์ปลายทาง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="548"/>
         <source>Shows a confirmation dialog when exiting with active torrents</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงหน้าต่างยืนยันเมื่อออกจากโปรแกรมขณะมีทอร์เรนต์ทำงานอยู่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="580"/>
         <source>When minimizing, the main window is closed and must be reopened from the systray icon</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อย่อหน้าต่าง หน้าต่างหลักจะปิดไป และต้องเปิดใหม่จากไอคอนในถาดระบบ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="593"/>
         <source>The systray icon will still be visible when closing the main window</source>
-        <translation type="unfinished"></translation>
+        <translation>ไอคอนในถาดระบบยังแสดงอยู่เมื่อปิดหน้าต่างหลัก</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="596"/>
@@ -6902,17 +6911,17 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="618"/>
         <source>Monochrome (for dark theme)</source>
-        <translation type="unfinished"></translation>
+        <translation>ขาวดำ (สำหรับธีมมืด)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="623"/>
         <source>Monochrome (for light theme)</source>
-        <translation type="unfinished"></translation>
+        <translation>ขาวดำ (สำหรับธีมสว่าง)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="745"/>
         <source>Inhibit system sleep when torrents are downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ให้เครื่องเข้าโหมดพักขณะกำลังดาวน์โหลด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="752"/>
@@ -6922,7 +6931,7 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="796"/>
         <source>Creates an additional log file after the log file reaches the specified file size</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้างไฟล์บันทึกใหม่เพิ่มเมื่อไฟล์บันทึกมีขนาดถึงที่กำหนด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="863"/>
@@ -6945,79 +6954,80 @@ Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</so
     <message>
         <location filename="../gui/optionsdialog.ui" line="913"/>
         <source>Log performance warnings</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกคำเตือนด้านประสิทธิภาพ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1055"/>
         <source>Do not start the download automatically</source>
         <extracomment>The torrent will be added to download list in a stopped state</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ต้องเริ่มดาวน์โหลดอัตโนมัติ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1137"/>
         <source>Whether the .torrent file should be deleted after adding it</source>
-        <translation type="unfinished"></translation>
+        <translation>จะลบไฟล์ .torrent หลังเพิ่มแล้วหรือไม่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1192"/>
         <source>Allocate full file sizes on disk before starting downloads, to minimize fragmentation. Only useful for HDDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>จองขนาดไฟล์เต็มบนดิสก์ก่อนเริ่มดาวน์โหลด เพื่อลดการกระจายตัวของไฟล์ มีประโยชน์กับฮาร์ดดิสก์แบบจานหมุนเท่านั้น</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1202"/>
         <source>Append .!qB extension to incomplete files</source>
-        <translation type="unfinished"></translation>
+        <translation>เติมนามสกุล .!qB ให้ไฟล์ที่ยังโหลดไม่เสร็จ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1216"/>
         <source>When a torrent is downloaded, offer to add torrents from any .torrent files found inside it</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อดาวน์โหลดทอร์เรนต์เสร็จ เสนอให้เพิ่มทอร์เรนต์จากไฟล์ .torrent ที่พบข้างใน</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1219"/>
         <source>Enable recursive download dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดหน้าต่างดาวน์โหลดซ้อนชั้น</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1246"/>
         <source>Automatic: Various torrent properties (e.g. save path) will be decided by the associated category
 Manual: Various torrent properties (e.g. save path) must be assigned manually</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตโนมัติ: คุณสมบัติต่าง ๆ ของทอร์เรนต์ (เช่น เส้นทางบันทึก) จะกำหนดตามหมวดหมู่
+กำหนดเอง: ต้องกำหนดคุณสมบัติต่าง ๆ ของทอร์เรนต์ (เช่น เส้นทางบันทึก) ด้วยตนเอง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1317"/>
         <source>When Default Save/Incomplete Path changed:</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเส้นทางบันทึก/เส้นทางไฟล์ไม่สมบูรณ์เริ่มต้นเปลี่ยน:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1358"/>
         <source>When Category Save Path changed:</source>
-        <translation type="unfinished"></translation>
+        <translation>เมื่อเส้นทางบันทึกของหมวดหมู่เปลี่ยน:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1404"/>
         <source>Use Category paths in Manual Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้เส้นทางของหมวดหมู่ในโหมดกำหนดเอง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1401"/>
         <source>Resolve relative Save Path against appropriate Category path instead of Default one</source>
-        <translation type="unfinished"></translation>
+        <translation>แปลงเส้นทางบันทึกแบบสัมพัทธ์โดยอิงเส้นทางของหมวดหมู่แทนเส้นทางเริ่มต้น</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="251"/>
         <source>Use icons from system theme</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ไอคอนจากธีมของระบบ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="519"/>
         <source>Window state on start up:</source>
-        <translation type="unfinished"></translation>
+        <translation>สถานะหน้าต่างเมื่อเปิดโปรแกรม:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="526"/>
         <source>qBittorrent window state on start up</source>
-        <translation type="unfinished"></translation>
+        <translation>สถานะหน้าต่าง qBittorrent เมื่อเปิดโปรแกรม</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1064"/>
@@ -7050,12 +7060,12 @@ Manual: Various torrent properties (e.g. save path) must be assigned manually</s
     <message>
         <location filename="../gui/optionsdialog.ui" line="1458"/>
         <source>Automatically add torrents from:</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มทอร์เรนต์อัตโนมัติจาก:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1552"/>
         <source>Excluded file names</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อไฟล์ที่ไม่ต้องดาวน์โหลด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1564"/>
@@ -7072,12 +7082,24 @@ Examples
 readme.txt: filter exact file name.
 ?.txt: filter &apos;a.txt&apos;, &apos;b.txt&apos; but not &apos;aa.txt&apos;.
 readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not &apos;readme10.txt&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ดาวน์โหลดไฟล์ที่ชื่อตรงกับตัวกรอง
+ไฟล์ที่ตรงกับตัวกรองใดในรายการนี้จะถูกตั้งความสำคัญเป็น &quot;ไม่ดาวน์โหลด&quot; อัตโนมัติ
+
+ขึ้นบรรทัดใหม่เพื่อคั่นแต่ละรายการ ใช้ไวลด์การ์ดได้ดังนี้
+*: แทนตัวอักษรใดก็ได้ตั้งแต่ศูนย์ตัวขึ้นไป
+?: แทนตัวอักษรใดก็ได้หนึ่งตัว
+[...]: แทนชุดตัวอักษรที่อยู่ในวงเล็บเหลี่ยม
+
+ตัวอย่าง
+*.exe: กรองไฟล์นามสกุล &apos;.exe&apos;
+readme.txt: กรองชื่อไฟล์นี้ตรงตัว
+?.txt: กรอง &apos;a.txt&apos;, &apos;b.txt&apos; แต่ไม่กรอง &apos;aa.txt&apos;
+readme[0-9].txt: กรอง &apos;readme1.txt&apos;, &apos;readme2.txt&apos; แต่ไม่กรอง &apos;readme10.txt&apos;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1619"/>
         <source>Receiver</source>
-        <translation type="unfinished"></translation>
+        <translation>ผู้รับ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1622"/>
@@ -7093,7 +7115,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="1606"/>
         <source>Sender</source>
-        <translation type="unfinished"></translation>
+        <translation>ผู้ส่ง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1609"/>
@@ -7104,7 +7126,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="1644"/>
         <source>This server requires a secure connection (SSL)</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์นี้ต้องใช้การเชื่อมต่อที่ปลอดภัย (SSL)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1651"/>
@@ -7131,12 +7153,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="1706"/>
         <source>Run external program</source>
-        <translation type="unfinished"></translation>
+        <translation>เรียกโปรแกรมภายนอก</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1748"/>
         <source>Show console window</source>
-        <translation type="unfinished"></translation>
+        <translation>แสดงหน้าต่างคอนโซล</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1810"/>
@@ -7146,17 +7168,17 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="1843"/>
         <source>Listening Port</source>
-        <translation type="unfinished"></translation>
+        <translation>พอร์ตรับการเชื่อมต่อ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1851"/>
         <source>Port used for incoming connections:</source>
-        <translation type="unfinished"></translation>
+        <translation>พอร์ตสำหรับการเชื่อมต่อขาเข้า:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1858"/>
         <source>Set to 0 to let your system pick an unused port</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งเป็น 0 เพื่อให้ระบบเลือกพอร์ตที่ว่างให้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1871"/>
@@ -7176,27 +7198,27 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="1951"/>
         <source>Maximum number of connections per torrent:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนการเชื่อมต่อสูงสุดต่อทอร์เรนต์:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1912"/>
         <source>Global maximum number of connections:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนการเชื่อมต่อสูงสุดทั้งหมด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1991"/>
         <source>Maximum number of upload slots per torrent:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนช่องอัปโหลดสูงสุดต่อทอร์เรนต์:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="1974"/>
         <source>Global maximum number of upload slots:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนช่องอัปโหลดสูงสุดทั้งหมด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2086"/>
         <source>Proxy Server</source>
-        <translation type="unfinished"></translation>
+        <translation>พร็อกซีเซิร์ฟเวอร์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2094"/>
@@ -7234,42 +7256,42 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="2236"/>
         <source>Otherwise, the proxy server is only used for tracker connections</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่เช่นนั้น พร็อกซีจะใช้เฉพาะการเชื่อมต่อกับแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2239"/>
         <source>Use proxy for peer connections</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้พร็อกซีกับการเชื่อมต่อเพียร์</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2174"/>
         <source>A&amp;uthentication</source>
-        <translation type="unfinished"></translation>
+        <translation>การยืนยันตัวตน(&amp;U)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2286"/>
         <source>Filter path (.dat, .p2p, .p2b):</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่ไฟล์ตัวกรอง (.dat, .p2p, .p2b):</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2296"/>
         <source>Reload the filter</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดตัวกรองใหม่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2311"/>
         <source>Manually banned IP addresses...</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่ IP ที่แบนด้วยตนเอง...</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2318"/>
         <source>Apply to trackers</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้กับแทร็กเกอร์ด้วย</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2376"/>
         <source>Global Rate Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>จำกัดความเร็วทั้งหมด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2392"/>
@@ -7342,27 +7364,27 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="2647"/>
         <source>Rate Limits Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งค่าการจำกัดความเร็ว</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2667"/>
         <source>Apply rate limit to peers on LAN</source>
-        <translation type="unfinished"></translation>
+        <translation>จำกัดความเร็วกับเพียร์ในวง LAN ด้วย</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2660"/>
         <source>Apply rate limit to transport overhead</source>
-        <translation type="unfinished"></translation>
+        <translation>จำกัดความเร็วรวมข้อมูลส่วนเกินของการรับส่งด้วย</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2070"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If &quot;mixed mode&quot; is enabled I2P torrents are allowed to also get peers from other sources than the tracker, and connect to regular IPs, not providing any anonymization. This may be useful if the user is not interested in the anonymization of I2P, but still wants to be able to connect to I2P peers.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;หากเปิด &quot;โหมดผสม&quot; ทอร์เรนต์ I2P จะหาเพียร์จากแหล่งอื่นนอกจากแทร็กเกอร์ได้ และเชื่อมต่อกับ IP ปกติได้ ซึ่งไม่ปกปิดตัวตน เหมาะกับผู้ที่ไม่ต้องการการปกปิดตัวตนของ I2P แต่ยังอยากเชื่อมต่อกับเพียร์ I2P&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2653"/>
         <source>Apply rate limit to µTP protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>จำกัดความเร็วโปรโตคอล µTP ด้วย</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2725"/>
@@ -7372,27 +7394,27 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="2734"/>
         <source>Enable DHT (decentralized network) to find more peers</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิด DHT (เครือข่ายกระจายศูนย์) เพื่อหาเพียร์เพิ่ม</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2744"/>
         <source>Exchange peers with compatible Bittorrent clients (µTorrent, Vuze, ...)</source>
-        <translation type="unfinished"></translation>
+        <translation>แลกเปลี่ยนเพียร์กับโปรแกรม BitTorrent ที่รองรับ (µTorrent, Vuze, ...)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2747"/>
         <source>Enable Peer Exchange (PeX) to find more peers</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการแลกเปลี่ยนเพียร์ (PeX) เพื่อหาเพียร์เพิ่ม</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2757"/>
         <source>Look for peers on your local network</source>
-        <translation type="unfinished"></translation>
+        <translation>หาเพียร์ในเครือข่ายท้องถิ่นของคุณ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2760"/>
         <source>Enable Local Peer Discovery to find more peers</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการค้นหาเพียร์ในเครือข่ายท้องถิ่นเพื่อหาเพียร์เพิ่ม</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2772"/>
@@ -7402,17 +7424,17 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="2790"/>
         <source>Require encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับเข้ารหัส</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2795"/>
         <source>Disable encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดการเข้ารหัส</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2820"/>
         <source>Enable when using a proxy or a VPN connection</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดเมื่อใช้พร็อกซีหรือ VPN</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2823"/>
@@ -7422,32 +7444,32 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="2910"/>
         <source>Maximum active downloads:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนดาวน์โหลดที่ทำงานพร้อมกันสูงสุด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2943"/>
         <source>Maximum active uploads:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนอัปโหลดที่ทำงานพร้อมกันสูงสุด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2963"/>
         <source>Maximum active torrents:</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนทอร์เรนต์ที่ทำงานพร้อมกันสูงสุด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2983"/>
         <source>Do not count slow torrents in these limits</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่นับทอร์เรนต์ที่ช้าในขีดจำกัดนี้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3031"/>
         <source>Upload rate threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>เกณฑ์ความเร็วอัปโหลด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="2995"/>
         <source>Download rate threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>เกณฑ์ความเร็วดาวน์โหลด:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3061"/>
@@ -7461,17 +7483,17 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="3054"/>
         <source>Torrent inactivity timer:</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวจับเวลาทอร์เรนต์ไม่มีความเคลื่อนไหว:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3168"/>
         <source>then</source>
-        <translation type="unfinished"></translation>
+        <translation>แล้ว</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3689"/>
         <source>Use UPnP / NAT-PMP to forward the port from my router</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ UPnP / NAT-PMP เปิดพอร์ตจากเราเตอร์ของฉัน</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3714"/>
@@ -7487,7 +7509,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="3737"/>
         <source>&lt;a href=https://httpd.apache.org/docs/current/ssl/ssl_faq.html#aboutcerts&gt;Information about certificates&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=https://httpd.apache.org/docs/current/ssl/ssl_faq.html#aboutcerts&gt;ข้อมูลเกี่ยวกับใบรับรอง&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="3785"/>
@@ -7502,7 +7524,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="4011"/>
         <source>&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs&quot;&gt;List of alternative WebUI&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs&quot;&gt;รายชื่อ WebUI ทางเลือก&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4027"/>
@@ -7517,42 +7539,42 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.ui" line="4040"/>
         <source>Enable Cross-Site Request Forgery (CSRF) protection</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการป้องกัน Cross-Site Request Forgery (CSRF)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4047"/>
         <source>Enable cookie Secure flag (requires HTTPS or localhost connection)</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิด Secure flag ของคุกกี้ (ต้องใช้ HTTPS หรือเชื่อมต่อจาก localhost)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4054"/>
         <source>Enable Host header validation</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการตรวจสอบ Host header</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4091"/>
         <source>Add custom HTTP headers</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่ม HTTP header ที่กำหนดเอง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4106"/>
         <source>Header: value pairs, one per line</source>
-        <translation type="unfinished"></translation>
+        <translation>คู่ Header: value บรรทัดละหนึ่งคู่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4116"/>
         <source>Enable reverse proxy support</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการรองรับ reverse proxy</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4127"/>
         <source>Trusted proxies list:</source>
-        <translation type="unfinished"></translation>
+        <translation>รายชื่อพร็อกซีที่เชื่อถือ:</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4143"/>
         <source>&lt;a href=https://github.com/qbittorrent/qBittorrent/wiki#reverse-proxy-setup-for-webui-access&gt;Reverse proxy setup examples&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=https://github.com/qbittorrent/qBittorrent/wiki#reverse-proxy-setup-for-webui-access&gt;ตัวอย่างการตั้งค่า reverse proxy&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.ui" line="4171"/>
@@ -7572,12 +7594,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="611"/>
         <source>By enabling these options, you can &lt;strong&gt;irrevocably lose&lt;/strong&gt; your .torrent files!</source>
-        <translation type="unfinished"></translation>
+        <translation>หากเปิดตัวเลือกเหล่านี้ คุณอาจ&lt;strong&gt;สูญเสียไฟล์ .torrent ไปถาวร&lt;/strong&gt;!</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="618"/>
         <source>If you enable the second option (&amp;ldquo;Also when addition is cancelled&amp;rdquo;) the .torrent file &lt;strong&gt;will be deleted&lt;/strong&gt; even if you press &amp;ldquo;&lt;strong&gt;Cancel&lt;/strong&gt;&amp;rdquo; in the &amp;ldquo;Add torrent&amp;rdquo; dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>หากเปิดตัวเลือกที่สอง (&amp;ldquo;รวมถึงเมื่อยกเลิกการเพิ่มด้วย&amp;rdquo;) ไฟล์ .torrent &lt;strong&gt;จะถูกลบ&lt;/strong&gt; แม้จะกด &amp;ldquo;&lt;strong&gt;ยกเลิก&lt;/strong&gt;&amp;rdquo; ในหน้าต่าง &amp;ldquo;เพิ่มทอร์เรนต์&amp;rdquo;</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="267"/>
@@ -7587,27 +7609,27 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1357"/>
         <source>Choose Alternative UI files location</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกที่อยู่ไฟล์ UI ทางเลือก</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="690"/>
         <source>Supported parameters (case sensitive):</source>
-        <translation type="unfinished"></translation>
+        <translation>พารามิเตอร์ที่รองรับ (ตัวพิมพ์เล็กใหญ่มีผล):</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="317"/>
         <source>Minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>ย่อไว้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="319"/>
         <source>Hidden</source>
-        <translation type="unfinished"></translation>
+        <translation>ซ่อนไว้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="334"/>
         <source>Disabled due to failed to detect system tray presence</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดใช้งาน เพราะตรวจไม่พบถาดระบบ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="583"/>
@@ -7642,12 +7664,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="694"/>
         <source>%F: Content path (same as root path for multifile torrent)</source>
-        <translation type="unfinished"></translation>
+        <translation>%F: ที่อยู่เนื้อหา (เหมือนที่อยู่หลักสำหรับทอร์เรนต์หลายไฟล์)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="695"/>
         <source>%R: Root path (first torrent subdirectory path)</source>
-        <translation type="unfinished"></translation>
+        <translation>%R: ที่อยู่หลัก (โฟลเดอร์ย่อยแรกของทอร์เรนต์)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="696"/>
@@ -7672,12 +7694,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="703"/>
         <source>%M: Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>%M: ความคิดเห็น</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="704"/>
         <source>Tip: Encapsulate parameter with quotation marks to avoid text being cut off at whitespace (e.g., &quot;%N&quot;)</source>
-        <translation type="unfinished"></translation>
+        <translation>เคล็ดลับ: ใส่เครื่องหมายคำพูดครอบพารามิเตอร์ เพื่อไม่ให้ข้อความถูกตัดที่ช่องว่าง (เช่น &quot;%N&quot;)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="768"/>
@@ -7687,7 +7709,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="768"/>
         <source>Attempted to send email. Check your inbox to confirm success</source>
-        <translation type="unfinished"></translation>
+        <translation>ลองส่งอีเมลแล้ว ตรวจกล่องจดหมายเพื่อดูว่าสำเร็จหรือไม่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="917"/>
@@ -7697,7 +7719,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1134"/>
         <source>A torrent will be considered slow if its download and upload rates stay below these values for &quot;Torrent inactivity timer&quot; seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์จะถือว่าช้า หากความเร็วดาวน์โหลดและอัปโหลดต่ำกว่าค่าเหล่านี้นานเท่ากับ &quot;ตัวจับเวลาทอร์เรนต์ไม่มีความเคลื่อนไหว&quot; (วินาที)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1351"/>
@@ -7722,88 +7744,88 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1360"/>
         <source>WebUI configuration failed. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งค่า WebUI ไม่สำเร็จ สาเหตุ: %1</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1509"/>
         <location filename="../gui/optionsdialog.cpp" line="1553"/>
         <source>Rotate API key</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยน API key ใหม่</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1511"/>
         <source>Generate an API key? This key can be used to interact with qBittorrent&apos;s API.</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้าง API key ไหม คีย์นี้ใช้ติดต่อกับ API ของ qBittorrent ได้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1512"/>
         <source>Rotate this API key? The current key will immediately stop working and a new key will be generated.</source>
-        <translation type="unfinished"></translation>
+        <translation>เปลี่ยน API key นี้ใหม่ไหม คีย์ปัจจุบันจะใช้ไม่ได้ทันทีและจะสร้างคีย์ใหม่ให้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1531"/>
         <source>Delete this API key? The current key will immediately stop working.</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบ API key นี้ไหม คีย์ปัจจุบันจะใช้ไม่ได้ทันที</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1863"/>
         <source>%1 is recommended for best compatibility with Windows dark mode</source>
         <comment>Fusion is recommended for best compatibility with Windows dark mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>แนะนำ %1 เพื่อให้เข้ากับโหมดมืดของ Windows ได้ดีที่สุด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1870"/>
         <source>System</source>
         <comment>System default Qt style</comment>
-        <translation>ระบบ</translation>
+        <translation>ตามระบบ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1871"/>
         <source>Let Qt decide the style for this system</source>
-        <translation type="unfinished"></translation>
+        <translation>ให้ Qt เลือกสไตล์ที่เหมาะกับระบบนี้</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1888"/>
         <source>Dark</source>
         <comment>Dark color scheme</comment>
-        <translation type="unfinished"></translation>
+        <translation>มืด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1889"/>
         <source>Light</source>
         <comment>Light color scheme</comment>
-        <translation type="unfinished"></translation>
+        <translation>สว่าง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="1890"/>
         <source>System</source>
         <comment>System color scheme</comment>
-        <translation>ระบบ</translation>
+        <translation>ตามระบบ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2015"/>
         <source>Select folder to monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกโฟลเดอร์ที่จะเฝ้าดู</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2037"/>
         <source>Adding entry failed</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มรายการไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2137"/>
         <source>The WebUI username must be at least 3 characters long.</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อผู้ใช้ WebUI ต้องยาวอย่างน้อย 3 ตัวอักษร</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2142"/>
         <source>Character Error</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวอักษรไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2142"/>
         <source>The WebUI username must not contain a colon.</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อผู้ใช้ WebUI ห้ามมีเครื่องหมายโคลอน (:)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2149"/>
@@ -7829,7 +7851,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="268"/>
         <source>qBittorrent UI Theme file (*.qbtheme config.json)</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ธีมหน้าตา qBittorrent (*.qbtheme config.json)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="693"/>
@@ -7849,14 +7871,14 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="702"/>
         <source>%K: Torrent ID (either sha-1 info hash for v1 torrent or truncated sha-256 info hash for v2/hybrid torrent)</source>
-        <translation type="unfinished"></translation>
+        <translation>%K: รหัสทอร์เรนต์ (info hash แบบ sha-1 สำหรับทอร์เรนต์ v1 หรือ info hash แบบ sha-256 ที่ตัดสั้นสำหรับทอร์เรนต์ v2/hybrid)</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="361"/>
         <location filename="../gui/optionsdialog.cpp" line="635"/>
         <location filename="../gui/optionsdialog.cpp" line="640"/>
         <source>Choose a save directory</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกโฟลเดอร์ที่จะบันทึก</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="585"/>
@@ -7866,27 +7888,27 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="937"/>
         <source>Choose an IP filter file</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกไฟล์ตัวกรอง IP</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="939"/>
         <source>All supported filters</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวกรองทั้งหมดที่รองรับ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2159"/>
         <source>The alternative WebUI files location cannot be blank.</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่ไฟล์ WebUI ทางเลือกต้องไม่ว่าง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2196"/>
         <source>Parsing error</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านข้อมูลผิดพลาด</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2196"/>
         <source>Failed to parse the provided IP filter</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านตัวกรอง IP ที่ให้มาไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2198"/>
@@ -7907,18 +7929,18 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2207"/>
         <source>Time Error</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2207"/>
         <source>The start time and the end time can&apos;t be the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาเริ่มและเวลาสิ้นสุดต้องไม่เท่ากัน</translation>
     </message>
     <message>
         <location filename="../gui/optionsdialog.cpp" line="2137"/>
         <location filename="../gui/optionsdialog.cpp" line="2149"/>
         <source>Length Error</source>
-        <translation type="unfinished"></translation>
+        <translation>ความยาวไม่ถูกต้อง</translation>
     </message>
 </context>
 <context>
@@ -7931,37 +7953,37 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="303"/>
         <source>Interested (local) and choked (peer)</source>
-        <translation type="unfinished"></translation>
+        <translation>เราสนใจ แต่เพียร์ยังไม่ให้โหลด</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="308"/>
         <source>Interested (local) and unchoked (peer)</source>
-        <translation type="unfinished"></translation>
+        <translation>เราสนใจ และเพียร์ให้โหลดได้</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="317"/>
         <source>Interested (peer) and choked (local)</source>
-        <translation type="unfinished"></translation>
+        <translation>เพียร์สนใจ แต่เรายังไม่ให้โหลด</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="322"/>
         <source>Interested (peer) and unchoked (local)</source>
-        <translation type="unfinished"></translation>
+        <translation>เพียร์สนใจ และเราให้โหลดได้</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="328"/>
         <source>Not interested (local) and unchoked (peer)</source>
-        <translation type="unfinished"></translation>
+        <translation>เราไม่สนใจ แต่เพียร์ให้โหลดได้</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="332"/>
         <source>Not interested (peer) and unchoked (local)</source>
-        <translation type="unfinished"></translation>
+        <translation>เพียร์ไม่สนใจ แต่เราให้โหลดได้</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="336"/>
         <source>Optimistic unchoke</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดให้โหลดแบบสุ่มลอง (optimistic unchoke)</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="340"/>
@@ -7971,7 +7993,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="344"/>
         <source>Incoming connection</source>
-        <translation type="unfinished"></translation>
+        <translation>การเชื่อมต่อขาเข้า</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="348"/>
@@ -7991,17 +8013,17 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="360"/>
         <source>Encrypted traffic</source>
-        <translation type="unfinished"></translation>
+        <translation>การรับส่งที่เข้ารหัส</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="364"/>
         <source>Encrypted handshake</source>
-        <translation type="unfinished"></translation>
+        <translation>การจับมือที่เข้ารหัส</translation>
     </message>
     <message>
         <location filename="../base/bittorrent/peerinfo.cpp" line="372"/>
         <source>Peer is using NAT hole punching</source>
-        <translation type="unfinished"></translation>
+        <translation>เพียร์ใช้ NAT hole punching</translation>
     </message>
 </context>
 <context>
@@ -8009,12 +8031,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="114"/>
         <source>Country/Region</source>
-        <translation type="unfinished"></translation>
+        <translation>ประเทศ/ภูมิภาค</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="115"/>
         <source>IP/Address</source>
-        <translation type="unfinished"></translation>
+        <translation>IP/ที่อยู่</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="116"/>
@@ -8041,7 +8063,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
         <location filename="../gui/properties/peerlistwidget.cpp" line="120"/>
         <source>Peer ID Client</source>
         <comment>i.e.: Client resolved from Peer ID</comment>
-        <translation type="unfinished"></translation>
+        <translation>โปรแกรมของเพียร์ (จาก Peer ID)</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="121"/>
@@ -8098,7 +8120,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="240"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับขนาดคอลัมน์ที่แสดงอยู่ทั้งหมดให้พอดีกับเนื้อหา</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="294"/>
@@ -8130,12 +8152,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="321"/>
         <source>Cannot add peers to a private torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มเพียร์ให้ทอร์เรนต์ส่วนตัวไม่ได้</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="323"/>
         <source>Cannot add peers when the torrent is checking</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มเพียร์ไม่ได้ขณะกำลังตรวจสอบทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/properties/peerlistwidget.cpp" line="325"/>
@@ -8183,7 +8205,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/properties/peersadditiondialog.ui" line="36"/>
         <source>Format: IPv4:port / [IPv6]:port</source>
-        <translation type="unfinished"></translation>
+        <translation>รูปแบบ: IPv4:พอร์ต / [IPv6]:พอร์ต</translation>
     </message>
     <message>
         <location filename="../gui/properties/peersadditiondialog.cpp" line="64"/>
@@ -8211,7 +8233,7 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/properties/pieceavailabilitybar.cpp" line="175"/>
         <source>Unavailable pieces</source>
-        <translation type="unfinished"></translation>
+        <translation>ชิ้นส่วนที่ไม่มีให้โหลด</translation>
     </message>
     <message>
         <location filename="../gui/properties/pieceavailabilitybar.cpp" line="176"/>
@@ -8229,22 +8251,22 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/properties/piecesbar.cpp" line="293"/>
         <source>File in this piece:</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ในชิ้นส่วนนี้:</translation>
     </message>
     <message>
         <location filename="../gui/properties/piecesbar.cpp" line="295"/>
         <source>File in these pieces:</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ในชิ้นส่วนเหล่านี้:</translation>
     </message>
     <message>
         <location filename="../gui/properties/piecesbar.cpp" line="314"/>
         <source>Wait until metadata become available to see detailed information</source>
-        <translation type="unfinished"></translation>
+        <translation>รอให้ได้เมทาดาตาก่อนจึงจะเห็นข้อมูลโดยละเอียด</translation>
     </message>
     <message>
         <location filename="../gui/properties/piecesbar.cpp" line="316"/>
         <source>Hold Shift key for detailed information</source>
-        <translation type="unfinished"></translation>
+        <translation>กด Shift ค้างเพื่อดูข้อมูลโดยละเอียด</translation>
     </message>
 </context>
 <context>
@@ -8283,12 +8305,12 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
     <message>
         <location filename="../gui/search/pluginselectdialog.ui" line="80"/>
         <source>Warning: Be sure to comply with your country&apos;s copyright laws when downloading torrents from any of these search engines.</source>
-        <translation type="unfinished"></translation>
+        <translation>คำเตือน: โปรดปฏิบัติตามกฎหมายลิขสิทธิ์ของประเทศคุณเมื่อดาวน์โหลดทอร์เรนต์จากเครื่องมือค้นหาเหล่านี้</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginselectdialog.ui" line="95"/>
         <source>You can get new search engine plugins here: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดปลั๊กอินเครื่องมือค้นหาใหม่ได้ที่: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginselectdialog.ui" line="107"/>
@@ -8334,7 +8356,8 @@ readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not
         <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
         <source>Some plugins could not be uninstalled because they are included in qBittorrent. Only the ones you added yourself can be uninstalled.
 Those plugins were disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>ถอนการติดตั้งปลั๊กอินบางตัวไม่ได้ เพราะมาพร้อมกับ qBittorrent ถอนได้เฉพาะตัวที่คุณเพิ่มเอง
+ปลั๊กอินเหล่านั้นถูกปิดใช้งานแทน</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
@@ -8374,12 +8397,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
         <source>Invalid link</source>
-        <translation type="unfinished"></translation>
+        <translation>ลิงก์ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
         <source>The link doesn&apos;t seem to point to a search engine plugin.</source>
-        <translation type="unfinished"></translation>
+        <translation>ลิงก์นี้ดูเหมือนไม่ได้ชี้ไปที่ปลั๊กอินเครื่องมือค้นหา</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginselectdialog.cpp" line="386"/>
@@ -8399,7 +8422,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/pluginselectdialog.cpp" line="463"/>
         <source>Sorry, couldn&apos;t check for plugin updates. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ขออภัย ตรวจหาอัปเดตปลั๊กอินไม่ได้ %1</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginselectdialog.cpp" line="477"/>
@@ -8422,12 +8445,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/pluginsourcedialog.ui" line="14"/>
         <source>Plugin source</source>
-        <translation type="unfinished"></translation>
+        <translation>แหล่งปลั๊กอิน</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginsourcedialog.ui" line="26"/>
         <source>Search plugin source:</source>
-        <translation type="unfinished"></translation>
+        <translation>แหล่งปลั๊กอินค้นหา:</translation>
     </message>
     <message>
         <location filename="../gui/search/pluginsourcedialog.ui" line="35"/>
@@ -8445,7 +8468,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/previewselectdialog.cpp" line="65"/>
         <source>The following files from torrent &quot;%1&quot; support previewing, please select one of them:</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ต่อไปนี้จากทอร์เรนต์ &quot;%1&quot; ดูตัวอย่างได้ โปรดเลือกหนึ่งไฟล์:</translation>
     </message>
     <message>
         <location filename="../gui/previewselectdialog.cpp" line="68"/>
@@ -8485,12 +8508,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/previewselectdialog.cpp" line="170"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับขนาดคอลัมน์ที่แสดงอยู่ทั้งหมดให้พอดีกับเนื้อหา</translation>
     </message>
     <message>
         <location filename="../gui/previewselectdialog.ui" line="14"/>
         <source>Preview selection</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกไฟล์ดูตัวอย่าง</translation>
     </message>
 </context>
 <context>
@@ -8498,27 +8521,27 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/fspathedit_p.cpp" line="305"/>
         <source>Path does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบเส้นทางนี้</translation>
     </message>
     <message>
         <location filename="../gui/fspathedit_p.cpp" line="307"/>
         <source>Path does not point to a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางนี้ไม่ใช่โฟลเดอร์</translation>
     </message>
     <message>
         <location filename="../gui/fspathedit_p.cpp" line="309"/>
         <source>Path does not point to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางนี้ไม่ใช่ไฟล์</translation>
     </message>
     <message>
         <location filename="../gui/fspathedit_p.cpp" line="311"/>
         <source>Don&apos;t have read permission to path</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีสิทธิ์อ่านเส้นทางนี้</translation>
     </message>
     <message>
         <location filename="../gui/fspathedit_p.cpp" line="313"/>
         <source>Don&apos;t have write permission to path</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีสิทธิ์เขียนเส้นทางนี้</translation>
     </message>
 </context>
 <context>
@@ -8527,7 +8550,7 @@ Those plugins were disabled.</source>
         <location filename="../gui/programupdater.cpp" line="127"/>
         <location filename="../gui/programupdater.cpp" line="199"/>
         <source>Failed to download the program update info. URL: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดข้อมูลอัปเดตโปรแกรมไม่สำเร็จ URL: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
 </context>
 <context>
@@ -8550,7 +8573,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/proptabbar.cpp" line="77"/>
         <source>HTTP Sources</source>
-        <translation type="unfinished"></translation>
+        <translation>แหล่ง HTTP</translation>
     </message>
     <message>
         <location filename="../gui/properties/proptabbar.cpp" line="86"/>
@@ -8573,7 +8596,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="117"/>
         <source>Availability:</source>
-        <translation type="unfinished"></translation>
+        <translation>ความพร้อมใช้งาน:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="81"/>
@@ -8634,12 +8657,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="494"/>
         <source>Wasted:</source>
-        <translation type="unfinished"></translation>
+        <translation>สูญเปล่า:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="233"/>
         <source>Connections:</source>
-        <translation type="unfinished"></translation>
+        <translation>การเชื่อมต่อ:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="642"/>
@@ -8679,7 +8702,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="552"/>
         <source>Reannounce In:</source>
-        <translation type="unfinished"></translation>
+        <translation>แจ้งแทร็กเกอร์ใหม่ใน:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="581"/>
@@ -8690,12 +8713,12 @@ Those plugins were disabled.</source>
         <location filename="../gui/properties/propertieswidget.ui" line="610"/>
         <location filename="../gui/properties/propertieswidget.ui" line="629"/>
         <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตราส่วน / ระยะเวลาที่ทำงาน (เดือน) บอกว่าทอร์เรนต์นี้ได้รับความนิยมแค่ไหน</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="613"/>
         <source>Popularity:</source>
-        <translation type="unfinished"></translation>
+        <translation>ความนิยม:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="660"/>
@@ -8730,7 +8753,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="834"/>
         <source>Private:</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่วนตัว:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.ui" line="930"/>
@@ -8746,7 +8769,7 @@ Those plugins were disabled.</source>
         <location filename="../gui/properties/propertieswidget.cpp" line="476"/>
         <source>%1 x %2 (have %3)</source>
         <comment>(torrent pieces) eg 152 x 4MB (have 25)</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 x %2 (มี %3)</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="411"/>
@@ -8781,7 +8804,7 @@ Those plugins were disabled.</source>
         <location filename="../gui/properties/propertieswidget.cpp" line="434"/>
         <source>%1 (%2 max)</source>
         <comment>%1 and %2 are numbers, e.g. 3 (10 max)</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 (สูงสุด %2)</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="450"/>
@@ -8801,18 +8824,18 @@ Those plugins were disabled.</source>
         <location filename="../gui/properties/propertieswidget.cpp" line="620"/>
         <source>Add web seed</source>
         <comment>Add HTTP source</comment>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มเว็บซีด</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="621"/>
         <source>Add web seed:</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มเว็บซีด:</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="627"/>
         <location filename="../gui/properties/propertieswidget.cpp" line="680"/>
         <source>This web seed is already in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>เว็บซีดนี้มีอยู่ในรายการแล้ว</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="82"/>
@@ -8822,22 +8845,22 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="558"/>
         <source>Add web seed...</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มเว็บซีด...</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="562"/>
         <source>Remove web seed</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบเว็บซีด</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="565"/>
         <source>Copy web seed URL</source>
-        <translation type="unfinished"></translation>
+        <translation>คัดลอก URL เว็บซีด</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="567"/>
         <source>Edit web seed URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไข URL เว็บซีด...</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="607"/>
@@ -8847,7 +8870,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="607"/>
         <source>You can enable it in Advanced Options</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดได้ในตัวเลือกขั้นสูง</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="672"/>
@@ -8866,37 +8889,37 @@ Those plugins were disabled.</source>
         <location filename="../base/rss/rss_autodownloader.cpp" line="80"/>
         <location filename="../base/rss/rss_autodownloader.cpp" line="88"/>
         <source>Invalid data format.</source>
-        <translation type="unfinished"></translation>
+        <translation>รูปแบบข้อมูลไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_autodownloader.cpp" line="123"/>
         <source>Couldn&apos;t save RSS AutoDownloader data in %1. Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกข้อมูลตัวดาวน์โหลด RSS อัตโนมัติใน %1 ไม่ได้ ข้อผิดพลาด: %2</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_autodownloader.cpp" line="307"/>
         <source>Invalid data format</source>
-        <translation type="unfinished"></translation>
+        <translation>รูปแบบข้อมูลไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_autodownloader.cpp" line="490"/>
         <source>RSS article &apos;%1&apos; is accepted by rule &apos;%2&apos;. Trying to add torrent...</source>
-        <translation type="unfinished"></translation>
+        <translation>บทความ RSS &apos;%1&apos; ตรงกับกฎ &apos;%2&apos; กำลังเพิ่มทอร์เรนต์...</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_autodownloader.cpp" line="496"/>
         <source>Failed to add torrent from RSS article. Reason: unsupported torrent URL. Only HTTP(S) URLs, magnet URIs and info hashes are supported. Article: &quot;%1&quot;. URL: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มทอร์เรนต์จากบทความ RSS ไม่สำเร็จ สาเหตุ: URL ทอร์เรนต์ไม่รองรับ รองรับเฉพาะ URL แบบ HTTP(S), magnet URI และ info hash บทความ: &quot;%1&quot; URL: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_autodownloader.cpp" line="535"/>
         <source>Failed to read RSS AutoDownloader rules. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านกฎของตัวดาวน์โหลด RSS อัตโนมัติไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_autodownloader.cpp" line="553"/>
         <source>Couldn&apos;t load RSS AutoDownloader rules. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดกฎของตัวดาวน์โหลด RSS อัตโนมัติไม่ได้ สาเหตุ: %1</translation>
     </message>
 </context>
 <context>
@@ -8904,22 +8927,22 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/rss/rss_feed.cpp" line="247"/>
         <source>Failed to download RSS feed at &apos;%1&apos;. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดฟีด RSS ที่ &apos;%1&apos; ไม่สำเร็จ สาเหตุ: %2</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_feed.cpp" line="283"/>
         <source>RSS feed at &apos;%1&apos; updated. Added %2 new articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตฟีด RSS ที่ &apos;%1&apos; แล้ว เพิ่มบทความใหม่ %2 บทความ</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_feed.cpp" line="280"/>
         <source>Failed to parse RSS feed at &apos;%1&apos;. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านฟีด RSS ที่ &apos;%1&apos; ไม่สำเร็จ สาเหตุ: %2</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_feed.cpp" line="234"/>
         <source>RSS feed at &apos;%1&apos; is successfully downloaded. Starting to parse it.</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดฟีด RSS ที่ &apos;%1&apos; สำเร็จ กำลังเริ่มอ่าน</translation>
     </message>
 </context>
 <context>
@@ -8927,27 +8950,27 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/rss/feed_serializer.cpp" line="57"/>
         <source>Failed to read RSS session data. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านข้อมูลเซสชัน RSS ไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../base/rss/feed_serializer.cpp" line="79"/>
         <source>Failed to save RSS feed in &apos;%1&apos;, Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกฟีด RSS ใน &apos;%1&apos; ไม่สำเร็จ สาเหตุ: %2</translation>
     </message>
     <message>
         <location filename="../base/rss/feed_serializer.cpp" line="90"/>
         <source>Couldn&apos;t parse RSS Session data. Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านข้อมูลเซสชัน RSS ไม่ได้ ข้อผิดพลาด: %1</translation>
     </message>
     <message>
         <location filename="../base/rss/feed_serializer.cpp" line="97"/>
         <source>Couldn&apos;t load RSS Session data. Invalid data format.</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดข้อมูลเซสชัน RSS ไม่ได้ รูปแบบข้อมูลไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../base/rss/feed_serializer.cpp" line="109"/>
         <source>Couldn&apos;t load RSS article &apos;%1#%2&apos;. Invalid data format.</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดบทความ RSS &apos;%1#%2&apos; ไม่ได้ รูปแบบข้อมูลไม่ถูกต้อง</translation>
     </message>
 </context>
 <context>
@@ -8955,12 +8978,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/rss/rss_parser.cpp" line="594"/>
         <source>Invalid RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ฟีด RSS ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_parser.cpp" line="588"/>
         <source>%1 (line: %2, column: %3, offset: %4).</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (บรรทัด: %2, คอลัมน์: %3, ตำแหน่ง: %4)</translation>
     </message>
 </context>
 <context>
@@ -8968,54 +8991,54 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="79"/>
         <source>Couldn&apos;t save RSS session configuration. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกการตั้งค่าเซสชัน RSS ไม่ได้ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="88"/>
         <source>Couldn&apos;t save RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกข้อมูลเซสชัน RSS ไม่ได้ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="156"/>
         <location filename="../base/rss/rss_session.cpp" line="189"/>
         <source>RSS feed with given URL already exists: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>มีฟีด RSS ของ URL นี้อยู่แล้ว: %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="176"/>
         <source>Feed doesn&apos;t exist: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีฟีดนี้: %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="203"/>
         <source>Cannot move root folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>ย้ายโฟลเดอร์หลักไม่ได้</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="207"/>
         <location filename="../base/rss/rss_session.cpp" line="250"/>
         <source>Item doesn&apos;t exist: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีรายการนี้: %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="223"/>
         <source>Can&apos;t move a folder into itself or its subfolders.</source>
-        <translation type="unfinished"></translation>
+        <translation>ย้ายโฟลเดอร์เข้าไปในตัวเองหรือโฟลเดอร์ย่อยของมันไม่ได้</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="246"/>
         <source>Cannot delete root folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบโฟลเดอร์หลักไม่ได้</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="287"/>
         <source>Failed to read RSS session data. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านข้อมูลเซสชัน RSS ไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="295"/>
         <source>Failed to parse RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านข้อมูลเซสชัน RSS ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="302"/>
@@ -9025,47 +9048,47 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="333"/>
         <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดฟีด RSS ไม่ได้ ฟีด: &quot;%1&quot; สาเหตุ: ต้องระบุ URL</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="344"/>
         <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: UID is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดฟีด RSS ไม่ได้ ฟีด: &quot;%1&quot; สาเหตุ: UID ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="351"/>
         <source>Duplicate RSS feed found. UID: &quot;%1&quot;. Error: Configuration seems to be corrupted.</source>
-        <translation type="unfinished"></translation>
+        <translation>พบฟีด RSS ซ้ำ UID: &quot;%1&quot; ข้อผิดพลาด: การตั้งค่าอาจเสียหาย</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="375"/>
         <source>Couldn&apos;t load RSS item. Item: &quot;%1&quot;. Invalid data format.</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดรายการ RSS ไม่ได้ รายการ: &quot;%1&quot; รูปแบบข้อมูลไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="389"/>
         <source>Corrupted RSS list, not loading it.</source>
-        <translation type="unfinished"></translation>
+        <translation>รายการ RSS เสียหาย จะไม่โหลด</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="410"/>
         <source>Failed to add RSS folder item. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มโฟลเดอร์ RSS ไม่สำเร็จ สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="417"/>
         <source>Failed to add RSS feed item. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มฟีด RSS ไม่สำเร็จ สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="431"/>
         <source>Incorrect RSS Item path: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางรายการ RSS ไม่ถูกต้อง: %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="434"/>
         <source>RSS item with given path already exists: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>มีรายการ RSS ที่เส้นทางนี้อยู่แล้ว: %1</translation>
     </message>
     <message>
         <location filename="../base/rss/rss_session.cpp" line="439"/>
@@ -9078,12 +9101,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../webui/api/rsscontroller.cpp" line="94"/>
         <source>Invalid &apos;refreshInterval&apos; value</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่า &apos;refreshInterval&apos; ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/rsscontroller.cpp" line="99"/>
         <source>Feed doesn&apos;t exist: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีฟีดนี้: %1</translation>
     </message>
 </context>
 <context>
@@ -9091,7 +9114,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rssfeeddialog.ui" line="14"/>
         <source>RSS Feed Options</source>
-        <translation type="unfinished"></translation>
+        <translation>ตัวเลือกฟีด RSS</translation>
     </message>
     <message>
         <location filename="../gui/rss/rssfeeddialog.ui" line="22"/>
@@ -9101,7 +9124,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rssfeeddialog.ui" line="32"/>
         <source>Refresh interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเฟรชทุก:</translation>
     </message>
     <message>
         <location filename="../gui/rss/rssfeeddialog.cpp" line="43"/>
@@ -9124,12 +9147,12 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="31"/>
         <source>Fetching of RSS feeds is disabled now! You can enable it in application settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>ขณะนี้ปิดการดึงฟีด RSS อยู่! เปิดได้ในการตั้งค่าโปรแกรม</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="43"/>
         <source>New subscription</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มการติดตามใหม่</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="50"/>
@@ -9141,7 +9164,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="57"/>
         <source>Refresh RSS streams</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเฟรชฟีด RSS</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="60"/>
@@ -9183,7 +9206,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="162"/>
         <source>New subscription...</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มการติดตามใหม่...</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.ui" line="167"/>
@@ -9219,7 +9242,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="136"/>
         <source>Filter feed items...</source>
-        <translation type="unfinished"></translation>
+        <translation>กรองรายการในฟีด...</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="289"/>
@@ -9244,47 +9267,50 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="383"/>
         <source>Are you sure you want to delete the selected RSS feeds?</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องการลบฟีด RSS ที่เลือกใช่ไหม</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="494"/>
         <source>Blocked opening RSS article URL. URL pointing to local file might be malicious behaviour. Article: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>บล็อกการเปิด URL ของบทความ RSS เพราะ URL ที่ชี้ไปยังไฟล์ในเครื่องอาจเป็นพฤติกรรมอันตราย บทความ: &quot;%1&quot; URL: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="505"/>
         <source>Blocked opening RSS article URL. The following article URL is pointing to local file and it may be malicious behaviour:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>บล็อกการเปิด URL ของบทความ RSS บทความต่อไปนี้มี URL ชี้ไปยังไฟล์ในเครื่อง ซึ่งอาจเป็นพฤติกรรมอันตราย:
+%1</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="462"/>
         <location filename="../gui/rss/rsswidget.cpp" line="507"/>
         <location filename="../gui/rss/rsswidget.cpp" line="514"/>
         <source>There are %1 more articles with the same issue.</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังมีอีก %1 บทความที่มีปัญหาเดียวกัน</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="448"/>
         <source>Blocked adding torrent from RSS article. Unsupported torrent URL. Only HTTP(S) URLs, magnet URIs and info hashes are supported. Article: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>บล็อกการเพิ่มทอร์เรนต์จากบทความ RSS เพราะ URL ทอร์เรนต์ไม่รองรับ รองรับเฉพาะ URL แบบ HTTP(S), magnet URI และ info hash บทความ: &quot;%1&quot; URL: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="460"/>
         <source>Blocked adding torrent from RSS article. The following article has an unsupported torrent URL and it may be malicious behaviour:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>บล็อกการเพิ่มทอร์เรนต์จากบทความ RSS บทความต่อไปนี้มี URL ทอร์เรนต์ที่ไม่รองรับ ซึ่งอาจเป็นพฤติกรรมอันตราย:
+%1</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="512"/>
         <source>The following article has no news URL provided:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>บทความต่อไปนี้ไม่มี URL ข่าว:
+%1</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="534"/>
         <source>Please choose a new name for this RSS feed</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรดตั้งชื่อใหม่ให้ฟีด RSS นี้</translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="534"/>
@@ -9304,7 +9330,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="715"/>
         <source>Feed: </source>
-        <translation type="unfinished"></translation>
+        <translation>ฟีด: </translation>
     </message>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="717"/>
@@ -9314,7 +9340,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/rss/rsswidget.cpp" line="719"/>
         <source>Open link</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดลิงก์</translation>
     </message>
 </context>
 <context>
@@ -9327,13 +9353,13 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../webui/api/searchcontroller.cpp" line="113"/>
         <source>Unable to create more than %1 concurrent searches.</source>
-        <translation type="unfinished"></translation>
+        <translation>ค้นหาพร้อมกันได้ไม่เกิน %1 รายการ</translation>
     </message>
     <message>
         <location filename="../webui/api/searchcontroller.cpp" line="190"/>
         <location filename="../webui/api/searchcontroller.cpp" line="196"/>
         <source>Offset is out of range</source>
-        <translation type="unfinished"></translation>
+        <translation>ตำแหน่งเกินขอบเขต</translation>
     </message>
     <message>
         <location filename="../webui/api/searchcontroller.cpp" line="305"/>
@@ -9361,7 +9387,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/search/searchdownloadhandler.cpp" line="72"/>
         <source>Error occurred when downloading torrent via search engine. Engine: &quot;%1&quot;. URL: &quot;%2&quot;. Error: &quot;%3&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดขณะดาวน์โหลดทอร์เรนต์ผ่านเครื่องมือค้นหา เครื่องมือ: &quot;%1&quot; URL: &quot;%2&quot; ข้อผิดพลาด: &quot;%3&quot;</translation>
     </message>
 </context>
 <context>
@@ -9369,22 +9395,22 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="70"/>
         <source>Process failed to start</source>
-        <translation type="unfinished"></translation>
+        <translation>เริ่มโปรเซสไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="72"/>
         <source>Process crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรเซสหยุดทำงานกะทันหัน</translation>
     </message>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="74"/>
         <source>Process timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรเซสหมดเวลา</translation>
     </message>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="76"/>
         <source>Process write error</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรเซสเขียนข้อมูลผิดพลาด</translation>
     </message>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="78"/>
@@ -9394,17 +9420,17 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="80"/>
         <source>Process unknown error</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรเซสเกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</translation>
     </message>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="117"/>
         <source>Search process failed. Search query: &quot;%1&quot;. Category: &quot;%2&quot;. Engines: &quot;%3&quot;. Error: &quot;%4&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>การค้นหาล้มเหลว คำค้น: &quot;%1&quot; หมวดหมู่: &quot;%2&quot; เครื่องมือ: &quot;%3&quot; ข้อผิดพลาด: &quot;%4&quot;</translation>
     </message>
     <message>
         <location filename="../base/search/searchhandler.cpp" line="166"/>
         <source>Error occurred in search engine. Search query: &quot;%1&quot;. Category: &quot;%2&quot;. Engines: &quot;%3&quot;. Error: &quot;%4&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>เครื่องมือค้นหาเกิดข้อผิดพลาด คำค้น: &quot;%1&quot; หมวดหมู่: &quot;%2&quot; เครื่องมือ: &quot;%3&quot; ข้อผิดพลาด: &quot;%4&quot;</translation>
     </message>
 </context>
 <context>
@@ -9422,7 +9448,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="46"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Some search engines search in torrent description and in torrent file names too. Whether such results will be shown in the list below is controlled by this mode.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Everywhere &lt;/span&gt;disables filtering and shows everything returned by the search engines.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Torrent names only&lt;/span&gt; shows only torrents whose names match the search query.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;เครื่องมือค้นหาบางตัวค้นทั้งในคำอธิบายทอร์เรนต์และชื่อไฟล์ในทอร์เรนต์ด้วย โหมดนี้กำหนดว่าจะแสดงผลแบบนั้นในรายการด้านล่างหรือไม่&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ทุกที่ &lt;/span&gt;ไม่กรอง แสดงทุกอย่างที่เครื่องมือค้นหาส่งมา&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;เฉพาะชื่อทอร์เรนต์&lt;/span&gt; แสดงเฉพาะทอร์เรนต์ที่ชื่อตรงกับคำค้น&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="69"/>
@@ -9432,27 +9458,27 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="79"/>
         <source>Minimum number of seeds</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนผู้ส่งขั้นต่ำ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="96"/>
         <source>Maximum number of seeds</source>
-        <translation type="unfinished"></translation>
+        <translation>จำนวนผู้ส่งสูงสุด</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="125"/>
         <source>Set minimum and maximum allowed size of a torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>กำหนดขนาดทอร์เรนต์ต่ำสุดและสูงสุดที่ยอมรับ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="137"/>
         <source>Minimum torrent size</source>
-        <translation type="unfinished"></translation>
+        <translation>ขนาดทอร์เรนต์ขั้นต่ำ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="161"/>
         <source>Maximum torrent size</source>
-        <translation type="unfinished"></translation>
+        <translation>ขนาดทอร์เรนต์สูงสุด</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="72"/>
@@ -9463,7 +9489,7 @@ Those plugins were disabled.</source>
         <location filename="../gui/search/searchjobwidget.ui" line="89"/>
         <location filename="../gui/search/searchjobwidget.ui" line="152"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>ถึง</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.ui" line="99"/>
@@ -9503,39 +9529,40 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="169"/>
         <source>Filter search results...</source>
-        <translation type="unfinished"></translation>
+        <translation>กรองผลการค้นหา...</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="350"/>
         <source>Blocked opening search result description page URL. URL pointing to local file might be malicious behaviour. Name: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>บล็อกการเปิด URL หน้ารายละเอียดผลการค้นหา เพราะ URL ที่ชี้ไปยังไฟล์ในเครื่องอาจเป็นพฤติกรรมอันตราย ชื่อ: &quot;%1&quot; URL: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="361"/>
         <source>Blocked opening search result description page URL. The following result URL is pointing to local file and it may be malicious behaviour:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>บล็อกการเปิด URL หน้ารายละเอียดผลการค้นหา ผลลัพธ์ต่อไปนี้มี URL ชี้ไปยังไฟล์ในเครื่อง ซึ่งอาจเป็นพฤติกรรมอันตราย:
+%1</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="363"/>
         <source>There are %1 more results with the same issue.</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังมีอีก %1 ผลลัพธ์ที่มีปัญหาเดียวกัน</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="368"/>
         <source>Entry &quot;%1&quot; has no description page URL provided.</source>
-        <translation type="unfinished"></translation>
+        <translation>รายการ &quot;%1&quot; ไม่มี URL หน้ารายละเอียด</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="370"/>
         <source>There are %1 more entries with the same issue.</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังมีอีก %1 รายการที่มีปัญหาเดียวกัน</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="451"/>
         <source>Results (showing &lt;i&gt;%1&lt;/i&gt; out of &lt;i&gt;%2&lt;/i&gt;):</source>
         <comment>i.e: Search results</comment>
-        <translation type="unfinished"></translation>
+        <translation>ผลลัพธ์ (แสดง &lt;i&gt;%1&lt;/i&gt; จาก &lt;i&gt;%2&lt;/i&gt;):</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="510"/>
@@ -9550,7 +9577,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="533"/>
         <source>Use regular expressions</source>
-        <translation>ใช้การแสดงออกปกติ (Regular Expression)</translation>
+        <translation>ใช้นิพจน์ปกติ (Regex)</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="548"/>
@@ -9585,7 +9612,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="562"/>
         <source>Description page URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL หน้ารายละเอียด</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="74"/>
@@ -9610,22 +9637,22 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="82"/>
         <source>Search returned no results</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบผลการค้นหา</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="112"/>
         <source>Engine</source>
-        <translation type="unfinished"></translation>
+        <translation>เครื่องมือ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="113"/>
         <source>Engine URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL ของเครื่องมือ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="114"/>
         <source>Published On</source>
-        <translation type="unfinished"></translation>
+        <translation>เผยแพร่เมื่อ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="594"/>
@@ -9640,7 +9667,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../gui/search/searchjobwidget.cpp" line="626"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับขนาดคอลัมน์ที่แสดงอยู่ทั้งหมดให้พอดีกับเนื้อหา</translation>
     </message>
 </context>
 <context>
@@ -9648,33 +9675,33 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="246"/>
         <source>Unknown search engine plugin file format.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่รู้จักรูปแบบไฟล์ปลั๊กอินเครื่องมือค้นหานี้</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="257"/>
         <source>Plugin already at version %1, which is greater than %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ปลั๊กอินเป็นเวอร์ชัน %1 อยู่แล้ว ซึ่งใหม่กว่า %2</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="258"/>
         <source>A more recent version of this plugin is already installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ติดตั้งปลั๊กอินนี้รุ่นใหม่กว่าไว้แล้ว</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="282"/>
         <source>Plugin %1 is not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่รองรับปลั๊กอิน %1</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="290"/>
         <location filename="../base/search/searchpluginmanager.cpp" line="294"/>
         <source>Plugin is not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่รองรับปลั๊กอินนี้</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="302"/>
         <source>Plugin %1 has been successfully updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>อัปเดตปลั๊กอิน %1 สำเร็จแล้ว</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="376"/>
@@ -9724,33 +9751,33 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="484"/>
         <source>Update server is temporarily unavailable. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เซิร์ฟเวอร์อัปเดตใช้งานไม่ได้ชั่วคราว %1</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="504"/>
         <location filename="../base/search/searchpluginmanager.cpp" line="506"/>
         <source>Failed to download the plugin file. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดไฟล์ปลั๊กอินไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="568"/>
         <source>Error occurred when fetching search engine capabilities. Error: &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดขณะดึงความสามารถของเครื่องมือค้นหา ข้อผิดพลาด: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="663"/>
         <source>Plugin &quot;%1&quot; is outdated, updating to version %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ปลั๊กอิน &quot;%1&quot; ล้าสมัย กำลังอัปเดตเป็นเวอร์ชัน %2</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="670"/>
         <source>Incorrect update info received for %1 out of %2 plugins.</source>
-        <translation type="unfinished"></translation>
+        <translation>ได้รับข้อมูลอัปเดตไม่ถูกต้องสำหรับปลั๊กอิน %1 จาก %2 ตัว</translation>
     </message>
     <message>
         <location filename="../base/search/searchpluginmanager.cpp" line="712"/>
         <source>Search plugin &apos;%1&apos; contains invalid version string (&apos;%2&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>ปลั๊กอินค้นหา &apos;%1&apos; มีหมายเลขเวอร์ชันไม่ถูกต้อง (&apos;%2&apos;)</translation>
     </message>
 </context>
 <context>
@@ -9765,7 +9792,8 @@ Those plugins were disabled.</source>
         <location filename="../gui/search/searchwidget.ui" line="86"/>
         <source>There aren&apos;t any search plugins installed.
 Click the &quot;Search plugins...&quot; button at the bottom right of the window to install some.</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังไม่ได้ติดตั้งปลั๊กอินค้นหาเลย
+กดปุ่ม &quot;ปลั๊กอินค้นหา...&quot; ที่มุมขวาล่างของหน้าต่างเพื่อติดตั้ง</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.ui" line="142"/>
@@ -9775,12 +9803,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="358"/>
         <source>A phrase to search for.</source>
-        <translation type="unfinished"></translation>
+        <translation>วลีที่ต้องการค้นหา</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="359"/>
         <source>Spaces in a search term may be protected by double quotes.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใส่เครื่องหมายคำพูดครอบคำค้นที่มีช่องว่างได้</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="361"/>
@@ -9792,7 +9820,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
         <location filename="../gui/search/searchwidget.cpp" line="367"/>
         <source>&lt;b&gt;&amp;quot;foo bar&amp;quot;&lt;/b&gt;: search for &lt;b&gt;foo bar&lt;/b&gt;</source>
         <comment>Search phrase example, illustrates quotes usage, double quotedpair of space delimited words, the whole pair is highlighted</comment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;&amp;quot;foo bar&amp;quot;&lt;/b&gt;: ค้นหา &lt;b&gt;foo bar&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="592"/>
@@ -9802,19 +9830,19 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="591"/>
         <source>Only enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>เฉพาะที่เปิดใช้</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="196"/>
         <location filename="../gui/search/searchwidget.cpp" line="254"/>
         <source>Invalid data format.</source>
-        <translation type="unfinished"></translation>
+        <translation>รูปแบบข้อมูลไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="363"/>
         <source>&lt;b&gt;foo bar&lt;/b&gt;: search for &lt;b&gt;foo&lt;/b&gt; and &lt;b&gt;bar&lt;/b&gt;</source>
         <comment>Search phrase example, illustrates quotes usage, a pair of space delimited words, individual words are highlighted</comment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;foo bar&lt;/b&gt;: ค้นหา &lt;b&gt;foo&lt;/b&gt; และ &lt;b&gt;bar&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="847"/>
@@ -9834,12 +9862,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="839"/>
         <source>Refresh tab</source>
-        <translation type="unfinished"></translation>
+        <translation>รีเฟรชแท็บ</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="843"/>
         <source>Stop search</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดค้นหา</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="890"/>
@@ -9856,12 +9884,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="884"/>
         <source>Empty search pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ได้ใส่คำค้น</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="884"/>
         <source>Please type a search pattern first</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรดพิมพ์คำค้นก่อน</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.ui" line="58"/>
@@ -9874,32 +9902,32 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="982"/>
         <source>Failed to load Search UI saved state data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดสถานะหน้าค้นหาที่บันทึกไว้ไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="1002"/>
         <source>Failed to load saved search results. Tab: &quot;%1&quot;. File: &quot;%2&quot;. Error: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดผลการค้นหาที่บันทึกไว้ไม่สำเร็จ แท็บ: &quot;%1&quot; ไฟล์: &quot;%2&quot; ข้อผิดพลาด: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="1034"/>
         <source>Failed to save Search UI state. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกสถานะหน้าค้นหาไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="1066"/>
         <source>Failed to save search results. Tab: &quot;%1&quot;. File: &quot;%2&quot;. Error: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกผลการค้นหาไม่สำเร็จ แท็บ: &quot;%1&quot; ไฟล์: &quot;%2&quot; ข้อผิดพลาด: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="1082"/>
         <source>Failed to load Search UI history. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดประวัติการค้นหาไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../gui/search/searchwidget.cpp" line="1096"/>
         <source>Failed to save search history. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกประวัติการค้นหาไม่สำเร็จ ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
 </context>
 <context>
@@ -9907,22 +9935,22 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../base/settingsstorage.cpp" line="147"/>
         <source>Detected unclean program exit. Using fallback file to restore settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>พบว่าโปรแกรมปิดไม่สมบูรณ์ครั้งก่อน กำลังใช้ไฟล์สำรองเพื่อกู้การตั้งค่า: %1</translation>
     </message>
     <message>
         <location filename="../base/settingsstorage.cpp" line="187"/>
         <source>An access error occurred while trying to write the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดด้านสิทธิ์ขณะเขียนไฟล์การตั้งค่า</translation>
     </message>
     <message>
         <location filename="../base/settingsstorage.cpp" line="190"/>
         <source>A format error occurred while trying to write the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดด้านรูปแบบขณะเขียนไฟล์การตั้งค่า</translation>
     </message>
     <message>
         <location filename="../base/settingsstorage.cpp" line="193"/>
         <source>An unknown error occurred while trying to write the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุขณะเขียนไฟล์การตั้งค่า</translation>
     </message>
 </context>
 <context>
@@ -9980,12 +10008,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/shutdownconfirmdialog.cpp" line="133"/>
         <source>The computer is going to enter hibernation mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>คอมพิวเตอร์กำลังจะเข้าโหมดไฮเบอร์เนต</translation>
     </message>
     <message>
         <location filename="../gui/shutdownconfirmdialog.cpp" line="134"/>
         <source>&amp;Hibernate Now</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฮเบอร์เนตเดี๋ยวนี้(&amp;H)</translation>
     </message>
     <message>
         <location filename="../gui/shutdownconfirmdialog.cpp" line="135"/>
@@ -9995,12 +10023,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/shutdownconfirmdialog.cpp" line="138"/>
         <source>The computer is going to reboot.</source>
-        <translation type="unfinished"></translation>
+        <translation>คอมพิวเตอร์กำลังจะรีสตาร์ท</translation>
     </message>
     <message>
         <location filename="../gui/shutdownconfirmdialog.cpp" line="139"/>
         <source>&amp;Reboot Now</source>
-        <translation type="unfinished"></translation>
+        <translation>รีสตาร์ทเดี๋ยวนี้(&amp;R)</translation>
     </message>
     <message>
         <location filename="../gui/shutdownconfirmdialog.cpp" line="140"/>
@@ -10215,7 +10243,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/stacktracedialog.ui" line="14"/>
         <source>Crash info</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อมูลการหยุดทำงาน</translation>
     </message>
 </context>
 <context>
@@ -10238,7 +10266,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/statsdialog.ui" line="105"/>
         <source>Read cache hits:</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านจากแคชสำเร็จ:</translation>
     </message>
     <message>
         <location filename="../gui/statsdialog.ui" line="184"/>
@@ -10253,7 +10281,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/statsdialog.ui" line="54"/>
         <source>All-time share ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตราส่วนการแบ่งปันตลอดการใช้งาน:</translation>
     </message>
     <message>
         <location filename="../gui/statsdialog.ui" line="40"/>
@@ -10288,12 +10316,12 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/statsdialog.ui" line="142"/>
         <source>Write cache overload:</source>
-        <translation type="unfinished"></translation>
+        <translation>แคชการเขียนล้น:</translation>
     </message>
     <message>
         <location filename="../gui/statsdialog.ui" line="156"/>
         <source>Read cache overload:</source>
-        <translation type="unfinished"></translation>
+        <translation>แคชการอ่านล้น:</translation>
     </message>
     <message>
         <location filename="../gui/statsdialog.ui" line="198"/>
@@ -10318,7 +10346,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
         <location filename="../gui/statusbar.cpp" line="82"/>
         <location filename="../gui/statusbar.cpp" line="217"/>
         <source>No direct connections. This may indicate network configuration problems.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีการเชื่อมต่อขาเข้าโดยตรง อาจมีปัญหาการตั้งค่าเครือข่าย</translation>
     </message>
     <message>
         <location filename="../gui/statusbar.cpp" line="103"/>
@@ -10451,7 +10479,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="83"/>
         <source>Moving (0)</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังย้าย (0)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="86"/>
@@ -10501,7 +10529,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="176"/>
         <source>Moving (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังย้าย (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="223"/>
@@ -10640,7 +10668,7 @@ Click the &quot;Search plugins...&quot; button at the bottom right of the window
     <message>
         <location filename="../gui/torrentcategorydialog.ui" line="64"/>
         <source>Save path for incomplete torrents:</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางบันทึกสำหรับทอร์เรนต์ที่ยังไม่เสร็จ:</translation>
     </message>
     <message>
         <location filename="../gui/torrentcategorydialog.ui" line="72"/>
@@ -10787,7 +10815,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcontentmodel.cpp" line="308"/>
         <source>The name is invalid: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อไม่ถูกต้อง: &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -10858,7 +10886,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcontentwidget.cpp" line="403"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับขนาดคอลัมน์ที่แสดงอยู่ทั้งหมดให้พอดีกับเนื้อหา</translation>
     </message>
     <message>
         <location filename="../gui/torrentcontentwidget.cpp" line="423"/>
@@ -10932,12 +10960,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/api/torrentcreatorcontroller.cpp" line="153"/>
         <source>Too many active tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>มีงานที่ทำงานอยู่มากเกินไป</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentcreatorcontroller.cpp" line="240"/>
         <source>Torrent creation is still unfinished.</source>
-        <translation type="unfinished"></translation>
+        <translation>การสร้างทอร์เรนต์ยังไม่เสร็จ</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentcreatorcontroller.cpp" line="243"/>
@@ -10950,7 +10978,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="17"/>
         <source>Torrent Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้างทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="56"/>
@@ -10992,12 +11020,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="154"/>
         <source>Hybrid</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฮบริด</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="185"/>
         <source>Piece size:</source>
-        <translation type="unfinished"></translation>
+        <translation>ขนาดชิ้นส่วน:</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="124"/>
@@ -11012,7 +11040,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="231"/>
         <source>Private torrent (Won&apos;t distribute on DHT network)</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ส่วนตัว (จะไม่กระจายบนเครือข่าย DHT)</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="238"/>
@@ -11022,17 +11050,17 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="248"/>
         <source>Ignore share ratio limits for this torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ใช้ขีดจำกัดอัตราส่วนการแบ่งปันกับทอร์เรนต์นี้</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="255"/>
         <source>Optimize alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>จัดแนวให้เหมาะสม</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="266"/>
         <source>Align to piece boundary for files larger than:</source>
-        <translation type="unfinished"></translation>
+        <translation>จัดแนวตามขอบชิ้นส่วนสำหรับไฟล์ที่ใหญ่กว่า:</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="273"/>
@@ -11047,22 +11075,22 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="313"/>
         <source>Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>ช่องข้อมูล</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="326"/>
         <source>You can separate tracker tiers / groups with an empty line.</source>
-        <translation type="unfinished"></translation>
+        <translation>เว้นบรรทัดว่างเพื่อแบ่งระดับ/กลุ่มของแทร็กเกอร์ได้</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="339"/>
         <source>Web seed URLs:</source>
-        <translation type="unfinished"></translation>
+        <translation>URL เว็บซีด:</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="319"/>
         <source>Tracker URLs:</source>
-        <translation type="unfinished"></translation>
+        <translation>URL แทร็กเกอร์:</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.ui" line="356"/>
@@ -11098,12 +11126,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="282"/>
         <source>Reason: Path to file/folder is not readable.</source>
-        <translation type="unfinished"></translation>
+        <translation>สาเหตุ: อ่านไฟล์/โฟลเดอร์ในเส้นทางนี้ไม่ได้</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="288"/>
         <source>Select where to save the new torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกที่บันทึกทอร์เรนต์ใหม่</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="288"/>
@@ -11113,12 +11141,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="370"/>
         <source>Add torrent to transfer list failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มทอร์เรนต์เข้ารายการโอนถ่ายไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="370"/>
         <source>Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>สาเหตุ: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="371"/>
@@ -11141,32 +11169,32 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="169"/>
         <source>Failed to load Watched Folders configuration. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดการตั้งค่าโฟลเดอร์ที่เฝ้าดูไม่สำเร็จ %1</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="177"/>
         <source>Failed to parse Watched Folders configuration from %1. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านการตั้งค่าโฟลเดอร์ที่เฝ้าดูจาก %1 ไม่สำเร็จ ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="184"/>
         <source>Failed to load Watched Folders configuration from %1. Error: &quot;Invalid data format.&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดการตั้งค่าโฟลเดอร์ที่เฝ้าดูจาก %1 ไม่สำเร็จ ข้อผิดพลาด: &quot;รูปแบบข้อมูลไม่ถูกต้อง&quot;</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="257"/>
         <source>Couldn&apos;t store Watched Folders configuration to %1. Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>เก็บการตั้งค่าโฟลเดอร์ที่เฝ้าดูไว้ที่ %1 ไม่ได้ ข้อผิดพลาด: %2</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="276"/>
         <source>Watched folder Path cannot be empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางโฟลเดอร์ที่เฝ้าดูต้องไม่ว่าง</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="279"/>
         <source>Watched folder Path cannot be relative.</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางโฟลเดอร์ที่เฝ้าดูต้องไม่เป็นแบบสัมพัทธ์</translation>
     </message>
 </context>
 <context>
@@ -11174,27 +11202,27 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="412"/>
         <source>Invalid Magnet URI. URI: %1. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Magnet URI ไม่ถูกต้อง URI: %1 สาเหตุ: %2</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="420"/>
         <source>Magnet file too big. File: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์แม็กเน็ตใหญ่เกินไป ไฟล์: %1</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="425"/>
         <source>Failed to open magnet file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดไฟล์แม็กเน็ตไม่ได้: %1</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="495"/>
         <source>Rejecting failed torrent file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ปฏิเสธไฟล์ทอร์เรนต์ที่ล้มเหลว: %1</translation>
     </message>
     <message>
         <location filename="../base/torrentfileswatcher.cpp" line="534"/>
         <source>Watching folder: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>กำลังเฝ้าดูโฟลเดอร์: &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -11207,7 +11235,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="20"/>
         <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดอัตโนมัติหมายความว่าคุณสมบัติต่าง ๆ ของทอร์เรนต์ (เช่น เส้นทางบันทึก) จะกำหนดตามหมวดหมู่</translation>
     </message>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="23"/>
@@ -11232,7 +11260,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="162"/>
         <source>Torrent Share Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>ขีดจำกัดการแบ่งปันของทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="122"/>
@@ -11259,7 +11287,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="152"/>
         <source>These will not exceed the global limits</source>
-        <translation type="unfinished"></translation>
+        <translation>ค่าเหล่านี้จะไม่เกินขีดจำกัดรวม</translation>
     </message>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="92"/>
@@ -11279,7 +11307,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="203"/>
         <source>Disable PeX for this torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิด PeX สำหรับทอร์เรนต์นี้</translation>
     </message>
     <message>
         <location filename="../gui/torrentoptionsdialog.ui" line="210"/>
@@ -11305,7 +11333,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentoptionsdialog.cpp" line="334"/>
         <source>Not applicable to private torrents</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้กับทอร์เรนต์ส่วนตัวไม่ได้</translation>
     </message>
 </context>
 <context>
@@ -11324,19 +11352,19 @@ Please choose a different name and try again.</source>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="92"/>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="97"/>
         <source>Unlimited</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่จำกัด</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="88"/>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="93"/>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="98"/>
         <source>Set to</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งเป็น</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.ui" line="42"/>
         <source>Seeding time:</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาการส่ง:</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.ui" line="55"/>
@@ -11354,12 +11382,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentsharelimitswidget.ui" line="68"/>
         <source>Inactive seeding time:</source>
-        <translation type="unfinished"></translation>
+        <translation>เวลาการส่งขณะไม่มีความเคลื่อนไหว:</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.ui" line="98"/>
         <source>Action when the limit is reached:</source>
-        <translation type="unfinished"></translation>
+        <translation>สิ่งที่ทำเมื่อถึงขีดจำกัด:</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="61"/>
@@ -11374,7 +11402,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="67"/>
         <source>Remove torrent and its content</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบทอร์เรนต์และไฟล์ข้างใน</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="70"/>
@@ -11385,7 +11413,7 @@ Please choose a different name and try again.</source>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="417"/>
         <source>Default (%1)</source>
         <comment>Default (share limit action)</comment>
-        <translation type="unfinished"></translation>
+        <translation>ค่าเริ่มต้น (%1)</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="421"/>
@@ -11393,18 +11421,18 @@ Please choose a different name and try again.</source>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="423"/>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="427"/>
         <source>From category</source>
-        <translation type="unfinished"></translation>
+        <translation>ตามหมวดหมู่</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.cpp" line="428"/>
         <source>From category (%1)</source>
         <comment>From category (share limit action)</comment>
-        <translation type="unfinished"></translation>
+        <translation>ตามหมวดหมู่ (%1)</translation>
     </message>
     <message>
         <location filename="../gui/torrentsharelimitswidget.ui" line="19"/>
         <source>Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตราส่วน:</translation>
     </message>
 </context>
 <context>
@@ -11412,7 +11440,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrenttagsdialog.ui" line="14"/>
         <source>Torrent Tags</source>
-        <translation type="unfinished"></translation>
+        <translation>แท็กทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../gui/torrenttagsdialog.cpp" line="100"/>
@@ -11432,7 +11460,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
         <source>Tag name &apos;%1&apos; is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อแท็ก &apos;%1&apos; ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
@@ -11450,7 +11478,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1259"/>
         <source>Error: &apos;%1&apos; is not a valid torrent file.</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาด: &apos;%1&apos; ไม่ใช่ไฟล์ทอร์เรนต์ที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="503"/>
@@ -11465,63 +11493,63 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1113"/>
         <source>Cannot specify filePriorities when adding multiple torrents</source>
-        <translation type="unfinished"></translation>
+        <translation>ระบุ filePriorities ไม่ได้เมื่อเพิ่มหลายทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1115"/>
         <source>Cannot specify filePriorities when uploading torrent files</source>
-        <translation type="unfinished"></translation>
+        <translation>ระบุ filePriorities ไม่ได้เมื่ออัปโหลดไฟล์ทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1129"/>
         <source>`downloader` must be a valid search plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>`downloader` ต้องเป็นปลั๊กอินค้นหาที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1188"/>
         <source>Length of filePriorities must equal number of files in torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>ความยาวของ filePriorities ต้องเท่ากับจำนวนไฟล์ในทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1205"/>
         <location filename="../webui/api/torrentscontroller.cpp" line="1220"/>
         <source>`filePriorities` may only be specified when metadata has already been fetched</source>
-        <translation type="unfinished"></translation>
+        <translation>ระบุ `filePriorities` ได้เฉพาะเมื่อดึงเมทาดาตามาแล้วเท่านั้น</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1306"/>
         <source>Must specify at least one of [newUrl, tier]</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องระบุอย่างน้อยหนึ่งค่าจาก [newUrl, tier]</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1314"/>
         <source>tier must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>tier ต้องเป็นจำนวนเต็ม</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1316"/>
         <source>tier must be between 0 and 255</source>
-        <translation type="unfinished"></translation>
+        <translation>tier ต้องอยู่ระหว่าง 0 ถึง 255</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1326"/>
         <source>New tracker URL is invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>URL แทร็กเกอร์ใหม่ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1344"/>
         <source>New tracker URL already exists</source>
-        <translation type="unfinished"></translation>
+        <translation>มี URL แทร็กเกอร์ใหม่นี้อยู่แล้ว</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1367"/>
         <source>Tracker not found</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1408"/>
         <source>No valid peers were specified</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ได้ระบุเพียร์ที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1464"/>
@@ -11550,19 +11578,19 @@ Please choose a different name and try again.</source>
         <location filename="../webui/api/torrentscontroller.cpp" line="1697"/>
         <location filename="../webui/api/torrentscontroller.cpp" line="1722"/>
         <source>Save path cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางบันทึกต้องไม่ว่าง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1726"/>
         <location filename="../webui/api/torrentscontroller.cpp" line="1752"/>
         <source>Cannot create target directory</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้างโฟลเดอร์ปลายทางไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1882"/>
         <location filename="../webui/api/torrentscontroller.cpp" line="1909"/>
         <source>Category cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>หมวดหมู่ต้องไม่ว่าง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1898"/>
@@ -11572,113 +11600,113 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1922"/>
         <source>Category does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีหมวดหมู่นี้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2059"/>
         <source>File name has invalid characters</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อไฟล์มีตัวอักษรที่ใช้ไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2087"/>
         <source>Folder name has invalid characters</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อโฟลเดอร์มีตัวอักษรที่ใช้ไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2120"/>
         <source>Unable to export torrent file. Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่งออกไฟล์ทอร์เรนต์ไม่ได้ ข้อผิดพลาด: %1</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2174"/>
         <location filename="../webui/api/torrentscontroller.cpp" line="2282"/>
         <source>Must specify URI or hash</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องระบุ URI หรือแฮช</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2178"/>
         <source>downloader must be a valid search plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>downloader ต้องเป็นปลั๊กอินค้นหาที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2209"/>
         <source>Unable to download metadata for &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดเมทาดาตาของ &apos;%1&apos; ไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2247"/>
         <source>Unable to parse &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่าน &apos;%1&apos; ไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2256"/>
         <source>Must specify torrent file(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องระบุไฟล์ทอร์เรนต์</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2269"/>
         <source>&apos;%1&apos; is not a valid torrent file.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; ไม่ใช่ไฟล์ทอร์เรนต์ที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2298"/>
         <source>Metadata is not yet available</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังไม่มีเมทาดาตา</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2302"/>
         <source>Unable to export torrent metadata. Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่งออกเมทาดาตาของทอร์เรนต์ไม่ได้ ข้อผิดพลาด: %1</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2326"/>
         <source>Parse magnet URI failed. URI: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่าน Magnet URI ไม่สำเร็จ URI: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2372"/>
         <source>Reading downloaded torrent data failed. Data: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านข้อมูลทอร์เรนต์ที่ดาวน์โหลดมาไม่สำเร็จ ข้อมูล: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="2388"/>
         <source>Parse torrent failed. URL: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านทอร์เรนต์ไม่สำเร็จ URL: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1701"/>
         <source>Cannot make save path</source>
-        <translation type="unfinished"></translation>
+        <translation>สร้างเส้นทางบันทึกไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="390"/>
         <source>&quot;%1&quot; is not a valid URL</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; ไม่ใช่ URL ที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="393"/>
         <source>URL scheme must be one of [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>URL ต้องขึ้นต้นด้วยหนึ่งใน [%1]</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="646"/>
         <source>&apos;sort&apos; parameter is invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>พารามิเตอร์ &apos;sort&apos; ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="916"/>
         <source>&quot;%1&quot; is not an existing URL</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; ไม่ใช่ URL ที่มีอยู่</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="984"/>
         <source>&quot;%1&quot; is not a valid file index.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; ไม่ใช่ลำดับไฟล์ที่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="986"/>
         <source>Index %1 is out of bounds.</source>
-        <translation type="unfinished"></translation>
+        <translation>ลำดับ %1 เกินขอบเขต</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1730"/>
@@ -11689,18 +11717,18 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1705"/>
         <source>WebUI Set location: moving &quot;%1&quot;, from &quot;%2&quot; to &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>WebUI ตั้งตำแหน่ง: กำลังย้าย &quot;%1&quot; จาก &quot;%2&quot; ไป &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1776"/>
         <source>Incorrect torrent name</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อทอร์เรนต์ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../webui/api/torrentscontroller.cpp" line="1870"/>
         <location filename="../webui/api/torrentscontroller.cpp" line="1885"/>
         <source>Incorrect category name</source>
-        <translation type="unfinished"></translation>
+        <translation>ชื่อหมวดหมู่ไม่ถูกต้อง</translation>
     </message>
 </context>
 <context>
@@ -11718,7 +11746,12 @@ Please choose a different name and try again.</source>
 - All trackers within the same group will belong to the same tier.
 - The group on top will be tier 0, the next group tier 1 and so on.
 - Below will show the common subset of trackers of the selected torrents.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใส่ URL แทร็กเกอร์บรรทัดละหนึ่งรายการ
+
+- แบ่งแทร็กเกอร์เป็นกลุ่มได้ด้วยการเว้นบรรทัดว่าง
+- แทร็กเกอร์ในกลุ่มเดียวกันจะอยู่ระดับเดียวกัน
+- กลุ่มบนสุดคือระดับ 0 กลุ่มถัดไปคือระดับ 1 ไปเรื่อย ๆ
+- ด้านล่างจะแสดงแทร็กเกอร์ที่ทอร์เรนต์ที่เลือกมีร่วมกัน</translation>
     </message>
 </context>
 <context>
@@ -11736,7 +11769,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="68"/>
         <source>Disabled for this torrent</source>
-        <translation type="unfinished"></translation>
+        <translation>ปิดสำหรับทอร์เรนต์นี้</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="69"/>
@@ -11761,47 +11794,47 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="237"/>
         <source>Tracker error</source>
-        <translation type="unfinished"></translation>
+        <translation>แทร็กเกอร์ผิดพลาด</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="239"/>
         <source>Unreachable</source>
-        <translation type="unfinished"></translation>
+        <translation>เข้าถึงไม่ได้</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="241"/>
         <source>Not contacted yet</source>
-        <translation type="unfinished"></translation>
+        <translation>ยังไม่ได้ติดต่อ</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="244"/>
         <source>Invalid state!</source>
-        <translation type="unfinished"></translation>
+        <translation>สถานะไม่ถูกต้อง!</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="503"/>
         <source>URL/Announce Endpoint</source>
-        <translation type="unfinished"></translation>
+        <translation>URL/ปลายทางการแจ้ง</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="507"/>
         <source>BT Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>โปรโตคอล BT</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="521"/>
         <source>Next Announce</source>
-        <translation type="unfinished"></translation>
+        <translation>แจ้งครั้งถัดไป</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="523"/>
         <source>Min Announce</source>
-        <translation type="unfinished"></translation>
+        <translation>ระยะแจ้งขั้นต่ำ</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="505"/>
         <source>Tier</source>
-        <translation type="unfinished"></translation>
+        <translation>ระดับ</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="509"/>
@@ -11844,53 +11877,53 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
         <source>Tracker editing</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไขแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
         <source>Tracker URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>URL แทร็กเกอร์:</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
         <source>Tracker editing failed</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไขแทร็กเกอร์ไม่สำเร็จ</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
         <source>The tracker URL entered is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>URL แทร็กเกอร์ที่ใส่ไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
         <source>The tracker URL already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>มี URL แทร็กเกอร์นี้อยู่แล้ว</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="370"/>
         <source>Edit tracker URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไข URL แทร็กเกอร์...</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="372"/>
         <source>Remove tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="374"/>
         <source>Copy tracker URL</source>
-        <translation type="unfinished"></translation>
+        <translation>คัดลอก URL แทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="378"/>
         <source>Force reannounce to selected trackers</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับแจ้งแทร็กเกอร์ที่เลือกใหม่</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="386"/>
         <source>Force reannounce to all trackers</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับแจ้งแทร็กเกอร์ทั้งหมดใหม่</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="451"/>
@@ -11900,12 +11933,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="460"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับขนาดคอลัมน์ที่แสดงอยู่ทั้งหมดให้พอดีกับเนื้อหา</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="365"/>
         <source>Add trackers...</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มแทร็กเกอร์...</translation>
     </message>
     <message>
         <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="428"/>
@@ -11929,12 +11962,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="64"/>
         <source>Tracker error (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>แทร็กเกอร์ผิดพลาด (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="66"/>
         <source>Other error (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดอื่น (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="146"/>
@@ -11957,7 +11990,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackersadditiondialog.ui" line="14"/>
         <source>Add trackers</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/trackersadditiondialog.ui" line="20"/>
@@ -11972,7 +12005,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackersadditiondialog.ui" line="52"/>
         <source>Download trackers list</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดรายการแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/trackersadditiondialog.cpp" line="58"/>
@@ -11982,22 +12015,22 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
         <source>Trackers list URL error</source>
-        <translation type="unfinished"></translation>
+        <translation>URL รายการแทร็กเกอร์ผิดพลาด</translation>
     </message>
     <message>
         <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
         <source>The trackers list URL cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>URL รายการแทร็กเกอร์ต้องไม่ว่าง</translation>
     </message>
     <message>
         <location filename="../gui/trackersadditiondialog.cpp" line="114"/>
         <source>Download trackers list error</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดรายการแทร็กเกอร์ผิดพลาด</translation>
     </message>
     <message>
         <location filename="../gui/trackersadditiondialog.cpp" line="115"/>
         <source>Error occurred when downloading the trackers list. Reason: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดขณะดาวน์โหลดรายการแทร็กเกอร์ สาเหตุ: &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -12010,22 +12043,22 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="118"/>
         <source>Trackerless (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีแทร็กเกอร์ (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="120"/>
         <source>Tracker error (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>แทร็กเกอร์ผิดพลาด (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="122"/>
         <source>Other error (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>ข้อผิดพลาดอื่น (%1)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="546"/>
         <source>Remove tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบแทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="551"/>
@@ -12045,17 +12078,17 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="683"/>
         <source>Removal confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>ยืนยันการลบ</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="684"/>
         <source>Are you sure you want to remove tracker &quot;%1&quot; from all torrents?</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องการลบแทร็กเกอร์ &quot;%1&quot; ออกจากทุกทอร์เรนต์ใช่ไหม</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="686"/>
         <source>Don&apos;t ask me again.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่ต้องถามอีก</translation>
     </message>
     <message>
         <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="116"/>
@@ -12069,7 +12102,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/api/transfercontroller.cpp" line="141"/>
         <source>&apos;mode&apos;: invalid argument</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;mode&apos;: ค่าไม่ถูกต้อง</translation>
     </message>
 </context>
 <context>
@@ -12097,7 +12130,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistfilterswidget.cpp" line="145"/>
         <source>Tracker status</source>
-        <translation type="unfinished"></translation>
+        <translation>สถานะแทร็กเกอร์</translation>
     </message>
 </context>
 <context>
@@ -12207,7 +12240,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="108"/>
         <source>Stopped</source>
-        <translation type="unfinished"></translation>
+        <translation>หยุดแล้ว</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="165"/>
@@ -12248,7 +12281,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="171"/>
         <source>Popularity</source>
-        <translation type="unfinished"></translation>
+        <translation>ความนิยม</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="172"/>
@@ -12270,7 +12303,7 @@ Please choose a different name and try again.</source>
         <location filename="../gui/transferlistmodel.cpp" line="175"/>
         <source>Created On</source>
         <comment>Torrent was initially created on 01/01/2010 08:00</comment>
-        <translation type="unfinished"></translation>
+        <translation>สร้างเมื่อ</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="176"/>
@@ -12287,7 +12320,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="178"/>
         <source>Tracker</source>
-        <translation>ติดตาม</translation>
+        <translation>แทร็กเกอร์</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="179"/>
@@ -12339,25 +12372,25 @@ Please choose a different name and try again.</source>
         <location filename="../gui/transferlistmodel.cpp" line="187"/>
         <source>Save Path</source>
         <comment>Torrent save path</comment>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางบันทึก</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="183"/>
         <source>Session Downloaded</source>
         <comment>Amount of data downloaded since program open (e.g. in MB)</comment>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดรอบนี้</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="184"/>
         <source>Session Uploaded</source>
         <comment>Amount of data uploaded since program open (e.g. in MB)</comment>
-        <translation type="unfinished"></translation>
+        <translation>อัปโหลดรอบนี้</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="188"/>
         <source>Incomplete Save Path</source>
         <comment>Torrent incomplete save path</comment>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางบันทึกไฟล์ที่ยังไม่เสร็จ</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="189"/>
@@ -12399,30 +12432,30 @@ Please choose a different name and try again.</source>
         <location filename="../gui/transferlistmodel.cpp" line="195"/>
         <source>Info Hash v1</source>
         <comment>i.e: torrent info hash v1</comment>
-        <translation type="unfinished"></translation>
+        <translation>Info Hash v1</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="196"/>
         <source>Info Hash v2</source>
         <comment>i.e: torrent info hash v2</comment>
-        <translation type="unfinished"></translation>
+        <translation>Info Hash v2</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="197"/>
         <source>Reannounce In</source>
         <comment>Indicates the time until next trackers reannounce</comment>
-        <translation type="unfinished"></translation>
+        <translation>แจ้งแทร็กเกอร์ใหม่ใน</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="198"/>
         <source>Private</source>
         <comment>Flags private torrents</comment>
-        <translation type="unfinished"></translation>
+        <translation>ส่วนตัว</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="206"/>
         <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
-        <translation type="unfinished"></translation>
+        <translation>อัตราส่วน / ระยะเวลาที่ทำงาน (เดือน) บอกว่าทอร์เรนต์นี้ได้รับความนิยมแค่ไหน</translation>
     </message>
     <message>
         <location filename="../gui/transferlistmodel.cpp" line="260"/>
@@ -12494,32 +12527,32 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="727"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
-        <translation type="unfinished"></translation>
+        <translation>ปรับขนาดคอลัมน์ที่แสดงอยู่ทั้งหมดให้พอดีกับเนื้อหา</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="757"/>
         <source>Enable automatic torrent management</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดการจัดการทอร์เรนต์อัตโนมัติ</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="758"/>
         <source>Are you sure you want to enable Automatic Torrent Management for the selected torrent(s)? They may be relocated.</source>
-        <translation type="unfinished"></translation>
+        <translation>ต้องการเปิดการจัดการทอร์เรนต์อัตโนมัติให้ทอร์เรนต์ที่เลือกใช่ไหม ไฟล์อาจถูกย้ายที่</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="822"/>
         <source>Choose folder to save exported .torrent files</source>
-        <translation type="unfinished"></translation>
+        <translation>เลือกโฟลเดอร์สำหรับบันทึกไฟล์ .torrent ที่ส่งออก</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="836"/>
         <source>Export .torrent file failed. Torrent: &quot;%1&quot;. Save path: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่งออกไฟล์ .torrent ไม่สำเร็จ ทอร์เรนต์: &quot;%1&quot; เส้นทางบันทึก: &quot;%2&quot; สาเหตุ: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="861"/>
         <source>Export .torrent file error</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่งออกไฟล์ .torrent ผิดพลาด</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="872"/>
@@ -12549,7 +12582,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="986"/>
         <source>Pre&amp;view file...</source>
-        <translation type="unfinished"></translation>
+        <translation>ดูตัวอย่างไฟล์(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="988"/>
@@ -12593,17 +12626,17 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1002"/>
         <source>Force rec&amp;heck</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับตรวจสอบใหม่(&amp;H)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1004"/>
         <source>Force r&amp;eannounce</source>
-        <translation type="unfinished"></translation>
+        <translation>บังคับแจ้งแทร็กเกอร์ใหม่(&amp;E)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1006"/>
         <source>&amp;Magnet link</source>
-        <translation type="unfinished"></translation>
+        <translation>ลิงก์แม็กเน็ต(&amp;M)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1008"/>
@@ -12613,7 +12646,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1010"/>
         <source>&amp;Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>ความคิดเห็น(&amp;C)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1012"/>
@@ -12623,17 +12656,17 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1014"/>
         <source>Info &amp;hash v1</source>
-        <translation type="unfinished"></translation>
+        <translation>Info hash v1(&amp;H)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1016"/>
         <source>Info h&amp;ash v2</source>
-        <translation type="unfinished"></translation>
+        <translation>Info hash v2(&amp;A)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1018"/>
         <source>Content &amp;Path</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่เนื้อหา(&amp;P)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1022"/>
@@ -12643,7 +12676,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1031"/>
         <source>Edit trac&amp;kers...</source>
-        <translation type="unfinished"></translation>
+        <translation>แก้ไขแทร็กเกอร์(&amp;K)...</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1033"/>
@@ -12702,7 +12735,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1304"/>
         <source>Exported torrent is not necessarily the same as the imported</source>
-        <translation type="unfinished"></translation>
+        <translation>ทอร์เรนต์ที่ส่งออกอาจไม่เหมือนกับที่นำเข้ามาทุกประการ</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1024"/>
@@ -12712,18 +12745,18 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="776"/>
         <source>Add tags</source>
-        <translation type="unfinished"></translation>
+        <translation>เพิ่มแท็ก</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="862"/>
         <source>Errors occurred when exporting .torrent files. Check execution log for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>เกิดข้อผิดพลาดขณะส่งออกไฟล์ .torrent ดูรายละเอียดในบันทึกการทำงาน</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="978"/>
         <source>&amp;Start</source>
         <comment>Resume/start the torrent</comment>
-        <translation type="unfinished"></translation>
+        <translation>เริ่ม(&amp;S)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="980"/>
@@ -12735,7 +12768,7 @@ Please choose a different name and try again.</source>
         <location filename="../gui/transferlistwidget.cpp" line="982"/>
         <source>Force Star&amp;t</source>
         <comment>Force Resume/start the torrent</comment>
-        <translation type="unfinished"></translation>
+        <translation>บังคับเริ่ม(&amp;T)</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="984"/>
@@ -12756,7 +12789,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1029"/>
         <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดอัตโนมัติหมายความว่าคุณสมบัติต่าง ๆ ของทอร์เรนต์ (เช่น เส้นทางบันทึก) จะกำหนดตามหมวดหมู่</translation>
     </message>
     <message>
         <location filename="../gui/transferlistwidget.cpp" line="1020"/>
@@ -12769,70 +12802,70 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/uithemedialog.ui" line="14"/>
         <source>UI Theme Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งค่าธีมหน้าตา</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="33"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>สี</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="78"/>
         <source>Note that some custom colors may not be applied in some desktop environments.</source>
-        <translation type="unfinished"></translation>
+        <translation>สีที่กำหนดเองบางสีอาจไม่มีผลในบางระบบเดสก์ท็อป</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="100"/>
         <source>Color ID</source>
-        <translation type="unfinished"></translation>
+        <translation>รหัสสี</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="112"/>
         <location filename="../gui/uithemedialog.ui" line="215"/>
         <source>Light Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดสว่าง</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="124"/>
         <location filename="../gui/uithemedialog.ui" line="227"/>
         <source>Dark Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>โหมดมืด</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="151"/>
         <source>Icons</source>
-        <translation type="unfinished"></translation>
+        <translation>ไอคอน</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.ui" line="203"/>
         <source>Icon ID</source>
-        <translation type="unfinished"></translation>
+        <translation>รหัสไอคอน</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.cpp" line="269"/>
         <source>UI Theme Configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งค่าธีมหน้าตา</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.cpp" line="270"/>
         <source>The UI Theme changes could not be fully applied. The details can be found in the Log.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้การเปลี่ยนแปลงธีมได้ไม่ครบ ดูรายละเอียดในบันทึก</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.cpp" line="354"/>
         <source>Couldn&apos;t save UI Theme configuration. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>บันทึกการตั้งค่าธีมหน้าตาไม่ได้ สาเหตุ: %1</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.cpp" line="385"/>
         <location filename="../gui/uithemedialog.cpp" line="394"/>
         <source>Couldn&apos;t remove icon file. File: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ลบไฟล์ไอคอนไม่ได้ ไฟล์: %1</translation>
     </message>
     <message>
         <location filename="../gui/uithemedialog.cpp" line="403"/>
         <source>Couldn&apos;t copy icon file. Source: %1. Destination: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>คัดลอกไฟล์ไอคอนไม่ได้ ต้นทาง: %1 ปลายทาง: %2</translation>
     </message>
 </context>
 <context>
@@ -12840,7 +12873,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/uithememanager.cpp" line="88"/>
         <source>Set app style failed. Unknown style: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ตั้งสไตล์โปรแกรมไม่สำเร็จ ไม่รู้จักสไตล์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../gui/uithememanager.cpp" line="107"/>
@@ -12853,12 +12886,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/uithemesource.cpp" line="54"/>
         <source>Couldn&apos;t parse UI Theme configuration file. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านไฟล์ตั้งค่าธีมหน้าตาไม่ได้ สาเหตุ: %1</translation>
     </message>
     <message>
         <location filename="../gui/uithemesource.cpp" line="61"/>
         <source>UI Theme configuration file has invalid format. Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ไฟล์ตั้งค่าธีมหน้าตามีรูปแบบไม่ถูกต้อง สาเหตุ: %1</translation>
     </message>
     <message>
         <location filename="../gui/uithemesource.cpp" line="62"/>
@@ -12876,12 +12909,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../app/upgrade.cpp" line="62"/>
         <source>Migrate preferences failed: WebUI https, file: &quot;%1&quot;, error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ย้ายการตั้งค่าไม่สำเร็จ: WebUI https ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../app/upgrade.cpp" line="77"/>
         <source>Migrated preferences: WebUI https, exported data to file: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ย้ายการตั้งค่าแล้ว: WebUI https ส่งออกข้อมูลไปที่ไฟล์: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../app/upgrade.cpp" line="174"/>
@@ -12890,7 +12923,7 @@ Please choose a different name and try again.</source>
         <location filename="../app/upgrade.cpp" line="380"/>
         <location filename="../app/upgrade.cpp" line="481"/>
         <source>Invalid value found in configuration file, reverting it to default. Key: &quot;%1&quot;. Invalid value: &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>พบค่าไม่ถูกต้องในไฟล์การตั้งค่า จะคืนเป็นค่าเริ่มต้น คีย์: &quot;%1&quot; ค่าที่ไม่ถูกต้อง: &quot;%2&quot;</translation>
     </message>
 </context>
 <context>
@@ -12898,27 +12931,27 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="91"/>
         <source>Found Python executable. Name: &quot;%1&quot;. Version: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>พบโปรแกรม Python ชื่อ: &quot;%1&quot; เวอร์ชัน: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="243"/>
         <source>Python failed to meet minimum version requirement. Path: &quot;%1&quot;. Found version: &quot;%2&quot;. Minimum supported version: &quot;%3&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Python ไม่ถึงเวอร์ชันขั้นต่ำ ที่อยู่: &quot;%1&quot; เวอร์ชันที่พบ: &quot;%2&quot; เวอร์ชันต่ำสุดที่รองรับ: &quot;%3&quot;</translation>
     </message>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="258"/>
         <source>Failed to find Python executable. Path: &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบโปรแกรม Python ที่อยู่: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="282"/>
         <source>Failed to find `%1` executable in PATH environment variable. PATH: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบโปรแกรม `%1` ในตัวแปร PATH  PATH: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/utils/foreignapps.cpp" line="301"/>
         <source>Failed to find Python executable</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่พบโปรแกรม Python</translation>
     </message>
 </context>
 <context>
@@ -12926,27 +12959,27 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../base/utils/io.cpp" line="83"/>
         <source>File open error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>เปิดไฟล์ผิดพลาด ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/utils/io.cpp" line="91"/>
         <source>File size exceeds limit. File: &quot;%1&quot;. File size: %2. Size limit: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>ขนาดไฟล์เกินขีดจำกัด ไฟล์: &quot;%1&quot; ขนาด: %2 ขีดจำกัด: %3</translation>
     </message>
     <message>
         <location filename="../base/utils/io.cpp" line="97"/>
         <source>File size exceeds data size limit. File: &quot;%1&quot;. File size: %2. Array limit: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>ขนาดไฟล์เกินขีดจำกัดข้อมูล ไฟล์: &quot;%1&quot; ขนาด: %2 ขีดจำกัด: %3</translation>
     </message>
     <message>
         <location filename="../base/utils/io.cpp" line="107"/>
         <source>File read error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>อ่านไฟล์ผิดพลาด ไฟล์: &quot;%1&quot; ข้อผิดพลาด: &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../base/utils/io.cpp" line="122"/>
         <source>Read size mismatch. File: &quot;%1&quot;. Expected: %2. Actual: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>ขนาดที่อ่านได้ไม่ตรงกัน ไฟล์: &quot;%1&quot; ที่ควรเป็น: %2 ที่ได้จริง: %3</translation>
     </message>
 </context>
 <context>
@@ -12959,7 +12992,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/watchedfolderoptionsdialog.ui" line="22"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will watch the folder and all its subfolders. In Manual torrent management mode it will also add subfolder name to the selected Save path.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;จะเฝ้าดูโฟลเดอร์นี้และโฟลเดอร์ย่อยทั้งหมด ในโหมดจัดการทอร์เรนต์ด้วยตนเอง จะเติมชื่อโฟลเดอร์ย่อยต่อท้ายเส้นทางบันทึกที่เลือกด้วย&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../gui/watchedfolderoptionsdialog.ui" line="25"/>
@@ -12982,12 +13015,12 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/watchedfoldersmodel.cpp" line="106"/>
         <source>Watched folder path cannot be empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางโฟลเดอร์ที่เฝ้าดูต้องไม่ว่าง</translation>
     </message>
     <message>
         <location filename="../gui/watchedfoldersmodel.cpp" line="109"/>
         <source>Watched folder path cannot be relative.</source>
-        <translation type="unfinished"></translation>
+        <translation>เส้นทางโฟลเดอร์ที่เฝ้าดูต้องไม่เป็นแบบสัมพัทธ์</translation>
     </message>
     <message>
         <location filename="../gui/watchedfoldersmodel.cpp" line="112"/>
@@ -13020,47 +13053,47 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../webui/webapplication.cpp" line="445"/>
         <source>Using built-in WebUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ WebUI ในตัว</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="447"/>
         <source>Using custom WebUI. Location: &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ใช้ WebUI ที่กำหนดเอง ที่อยู่: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="459"/>
         <source>WebUI translation for selected locale (%1) has been successfully loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดคำแปล WebUI สำหรับภาษาที่เลือก (%1) สำเร็จ</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="464"/>
         <source>Couldn&apos;t load WebUI translation for selected locale (%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>โหลดคำแปล WebUI สำหรับภาษาที่เลือก (%1) ไม่ได้</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="521"/>
         <source>Missing &apos;:&apos; separator in WebUI custom HTTP header: &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>ไม่มีตัวคั่น &apos;:&apos; ใน HTTP header ที่กำหนดเองของ WebUI: &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="588"/>
         <source>Web server error. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>เว็บเซิร์ฟเวอร์ผิดพลาด %1</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="608"/>
         <source>Web server error. Unknown error.</source>
-        <translation type="unfinished"></translation>
+        <translation>เว็บเซิร์ฟเวอร์ผิดพลาด ไม่ทราบสาเหตุ</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="920"/>
         <source>WebUI: Origin header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Origin header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>WebUI: Origin header ไม่ตรงกับปลายทาง! IP ต้นทาง: &apos;%1&apos; Origin header: &apos;%2&apos; ปลายทาง: &apos;%3&apos;</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="932"/>
         <source>WebUI: Referer header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Referer header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>WebUI: Referer header ไม่ตรงกับปลายทาง! IP ต้นทาง: &apos;%1&apos; Referer header: &apos;%2&apos; ปลายทาง: &apos;%3&apos;</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="951"/>
@@ -13224,7 +13257,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../base/utils/os.cpp" line="98"/>
         <source>qBittorrent will reboot the computer now because all downloads are complete.</source>
-        <translation type="unfinished"></translation>
+        <translation>ดาวน์โหลดทั้งหมดเสร็จแล้ว qBittorrent จะรีสตาร์ทเครื่องเดี๋ยวนี้</translation>
     </message>
     <message>
         <location filename="../base/utils/misc.cpp" line="237"/>
